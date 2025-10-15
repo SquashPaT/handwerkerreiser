@@ -12,6 +12,7 @@ const navItems = [
   { label: "Termin vereinbaren", to: "/termin" },
   { label: "Kontakt", to: "/kontakt" },
   { label: "Impressum", to: "/impressum" },
+  { label: "Cookies", to: "/cookies" },
   { label: "Datenschutz", to: "/datenschutz" },
 ]
 

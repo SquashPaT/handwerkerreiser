@@ -7,6 +7,7 @@ const footerLinks = [
   { label: "Termin", to: "/termin" },
   { label: "Kontakt", to: "/kontakt" },
   { label: "Impressum", to: "/impressum" },
+  { label: "Cookies", to: "/cookies" },
   { label: "Datenschutz", to: "/datenschutz" },
 ]
 
@@ -80,4 +81,3 @@ export function Footer() {
     </footer>
   )
 }
-
