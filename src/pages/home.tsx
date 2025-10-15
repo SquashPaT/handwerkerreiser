@@ -16,12 +16,15 @@ export function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Handwerker Reiser | Renovierung, Entrümpelung & Böden</title>
+        <title>Handwerker Reiser – Renovierung · Boden · Montage – handwerker-reiser-renovierung.de</title>
         <meta
           name="description"
           content="Handwerker Reiser ist dein Meisterbetrieb für Renovierungen, Entrümpelungen und Bodenverlegung in München. Wir planen, koordinieren und liefern Top-Ergebnisse."
         />
-        <meta property="og:title" content="Handwerker Reiser | Renovierung, Entrümpelung & Böden" />
+        <meta
+          property="og:title"
+          content="Handwerker Reiser – Renovierung · Boden · Montage – handwerker-reiser-renovierung.de"
+        />
         <meta
           property="og:description"
           content="Renovierung, Entrümpelung oder neue Böden? Handwerker Reiser übernimmt alle Gewerke aus einer Hand – zuverlässig und termintreu."
