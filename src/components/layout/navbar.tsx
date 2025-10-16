@@ -21,6 +21,7 @@ export function Navbar() {
   const [open, setOpen] = useState(false)
   const { theme, toggleTheme } = useTheme()
   const { t, i18n } = useTranslation()
+  const mobileNavId = "mobile-navigation"
 
   const supportedLanguages = [
     { code: "de", label: "DE" },
@@ -101,6 +102,7 @@ export function Navbar() {
             size="icon"
             aria-label="Navigation öffnen"
             aria-expanded={open}
+            aria-controls={mobileNavId}
             onClick={() => setOpen((prev) => !prev)}
           >
             <Menu className="h-5 w-5" />
@@ -108,10 +110,10 @@ export function Navbar() {
         </div>
       </div>
       <div
+        id={mobileNavId}
         className={cn(
-          "flex flex-col gap-2 border-t border-border px-6 py-4 md:hidden",
-          open ? "visible opacity-100" : "invisible opacity-0",
-          "transition-all duration-150",
+          "border-t border-border px-6 py-4 md:hidden",
+          open ? "flex flex-col gap-2" : "hidden",
         )}
       >
         {navItems.map((item) => (
