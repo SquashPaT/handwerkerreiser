@@ -15,6 +15,9 @@
       "off": "Modalità scura disattivata"
     }
   },
+  "language": {
+    "switcher": "Seleziona la lingua"
+  },
   "footer": {
     "contactTitle": "Handwerker Reiser",
     "phone": "Telefono",

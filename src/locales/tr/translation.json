@@ -15,6 +15,9 @@
       "off": "Koyu mod kapalı"
     }
   },
+  "language": {
+    "switcher": "Dili değiştir"
+  },
   "footer": {
     "contactTitle": "Handwerker Reiser",
     "phone": "Telefon",

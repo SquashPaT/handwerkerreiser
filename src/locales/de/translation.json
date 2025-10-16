@@ -15,6 +15,9 @@
       "off": "Dark Mode deaktiviert"
     }
   },
+  "language": {
+    "switcher": "Sprache auswählen"
+  },
   "footer": {
     "contactTitle": "Handwerker Reiser",
     "phone": "Telefon",

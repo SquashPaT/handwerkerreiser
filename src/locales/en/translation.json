@@ -15,6 +15,9 @@
       "off": "Dark mode disabled"
     }
   },
+  "language": {
+    "switcher": "Change language"
+  },
   "footer": {
     "contactTitle": "Handwerker Reiser",
     "phone": "Phone",

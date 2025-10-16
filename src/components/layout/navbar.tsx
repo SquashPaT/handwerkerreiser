@@ -1,11 +1,17 @@
 import { useState } from "react"
 import { useTranslation } from "react-i18next"
 import { Link, NavLink } from "react-router-dom"
-import { Menu, Moon, Sun } from "lucide-react"
+import { Check, Globe, Menu, Moon, Sun } from "lucide-react"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
 import { useTheme } from "@/components/theme/theme-provider"
+import { Button } from "@/components/ui/button"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 const navItems = [
   { labelKey: "nav.home", to: "/" },
@@ -38,7 +44,16 @@ export function Navbar() {
         : "text-muted-foreground hover:text-foreground",
     )
 
+  const activeLanguage = supportedLanguages.find(
+    ({ code }) => i18n.resolvedLanguage === code,
+  ) ?? supportedLanguages[0]
+
   const handleItemClick = () => setOpen(false)
+
+  const handleLanguageSelect = (code: string) => {
+    void i18n.changeLanguage(code)
+    handleItemClick()
+  }
 
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
@@ -56,19 +71,35 @@ export function Navbar() {
               {t(item.labelKey)}
             </NavLink>
           ))}
-          <div className="flex items-center gap-1 pr-2">
-            {supportedLanguages.map(({ code, label }) => (
-              <Button
-                key={code}
-                variant={i18n.resolvedLanguage === code ? "default" : "ghost"}
-                size="sm"
-                className="px-2"
-                onClick={() => void i18n.changeLanguage(code)}
-              >
-                {label}
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" size="sm" className="gap-2 px-3">
+                <Globe className="h-4 w-4" />
+                <span className="text-xs font-medium tracking-wide">
+                  {activeLanguage.label}
+                </span>
+                <span className="sr-only">{t("language.switcher")}</span>
               </Button>
-            ))}
-          </div>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" className="w-36">
+              {supportedLanguages.map(({ code, label }) => {
+                const isActive = i18n.resolvedLanguage === code
+                return (
+                  <DropdownMenuItem
+                    key={code}
+                    onSelect={() => handleLanguageSelect(code)}
+                    className={cn(
+                      "flex items-center justify-between gap-2",
+                      isActive && "bg-primary/10 text-primary focus:bg-primary/10",
+                    )}
+                  >
+                    <span>{label}</span>
+                    {isActive ? <Check className="h-4 w-4" /> : null}
+                  </DropdownMenuItem>
+                )
+              })}
+            </DropdownMenuContent>
+          </DropdownMenu>
           <Button
             variant="ghost"
             size="icon"
@@ -142,26 +173,32 @@ export function Navbar() {
           />
           {theme === "dark" ? t("theme.status.on") : t("theme.status.off")}
         </Button>
-        <div className="flex flex-wrap gap-2 text-xs text-muted-foreground">
-          {supportedLanguages.map(({ code, label }) => (
-            <button
-              key={code}
-              type="button"
-              onClick={() => {
-                void i18n.changeLanguage(code)
-                handleItemClick()
-              }}
-              className={cn(
-                "rounded-md border px-2 py-1 transition",
-                i18n.resolvedLanguage === code
-                  ? "border-primary text-primary"
-                  : "border-border hover:border-primary/70 hover:text-foreground",
-              )}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button variant="outline" className="justify-start gap-2">
+              <Globe className="h-4 w-4" />
+              <span className="text-sm font-medium">{activeLanguage.label}</span>
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="start" className="w-40">
+            {supportedLanguages.map(({ code, label }) => {
+              const isActive = i18n.resolvedLanguage === code
+              return (
+                <DropdownMenuItem
+                  key={code}
+                  onSelect={() => handleLanguageSelect(code)}
+                  className={cn(
+                    "flex items-center justify-between",
+                    isActive && "bg-primary/10 text-primary focus:bg-primary/10",
+                  )}
+                >
+                  <span>{label}</span>
+                  {isActive ? <Check className="h-4 w-4" /> : null}
+                </DropdownMenuItem>
+              )
+            })}
+          </DropdownMenuContent>
+        </DropdownMenu>
       </div>
     </nav>
   )
