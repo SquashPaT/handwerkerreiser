@@ -1,0 +1,264 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetlerimiz",
+    "appointment": "Randevu Al",
+    "contact": "İletişim",
+    "imprint": "Künye",
+    "cookies": "Çerezler",
+    "privacy": "Gizlilik"
+  },
+  "theme": {
+    "toggle": "Görünümü değiştir",
+    "status": {
+      "on": "Koyu mod açık",
+      "off": "Koyu mod kapalı"
+    }
+  },
+  "footer": {
+    "contactTitle": "Handwerker Reiser",
+    "phone": "Telefon",
+    "mobile": "Mobil",
+    "email": "E-posta",
+    "chamberNote": "Münih Esnaf ve Zanaatkârlar Odası · Üye No: 0123456",
+    "lawNote": "Mesleki düzenlemeler: Alman Zanaatkârlık Kanunu (HwO) · www.gesetze-im-internet.de adresinde erişilebilir",
+    "owner": "Sahibi: {{name}} · KDV No: {{vatId}}",
+    "rights": "© {{year}} Handwerker Reiser. Tüm hakları saklıdır.",
+    "country": "Almanya"
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil. Lütfen URL'yi kontrol edin veya ana sayfaya dönün.",
+    "cta": "Ana sayfaya dön"
+  },
+  "home": {
+    "hero": {
+      "badge": "Handwerker Reiser · Usta zanaatkâr",
+      "title": "Tadilat, boşaltma ve zemin kaplama tek elden.",
+      "description": "Tadilatlar, boşaltma projeleri ve zemin kaplamalarında mülk yöneticilerine, mülk sahiplerine ve işletmelere destek veriyoruz. Kişisel, güvenilir ve detaylara önem veren hizmet.",
+      "ctaPrimary": "Ücretsiz danışmanlık iste",
+      "ctaSecondary": "Hizmetlerimizi incele"
+    },
+    "highlights": {
+      "master": {
+        "title": "Usta işletme",
+        "description": "Konut ve ticari alanlarda 15 yılı aşkın tecrübe."
+      },
+      "speed": {
+        "title": "Hızlı uygulama",
+        "description": "İlk görüşmeden teslimata kadar güvenilir zaman planı ve şeffaf iletişim."
+      },
+      "quality": {
+        "title": "Garantili kalite",
+        "description": "Sadece yüksek kaliteli malzemeler ve uzman ekiplerle çalışıyoruz."
+      }
+    },
+    "process": {
+      "badge": "48 saat içinde proje başlangıcı",
+      "title": "Planlama, uygulama ve servis – hepsi tek elden.",
+      "description": "İster daire, ister müstakil ev, ister ofis olsun: Sana özel teklif hazırlar, tüm ekipleri koordine eder ve düzenli raporlarla seni bilgilendiririz. Amacımız kesintisiz bir süreç ve etkileyici sonuçlar sunmaktır.",
+      "bullets": {
+        "consulting": "Şeffaf maliyet ve güvenilir zaman planı ile yerinde bireysel danışmanlık.",
+        "teams": "Boyama, zemin ve boşaltma işleri için projene uygun öz ekipler.",
+        "documentation": "Fotoğraf ve video dokümantasyonu ile kalite güvenceli teslimat."
+      },
+      "cardTitle": "Öne çıkan hizmetlerimiz",
+      "cardDescription": "Tadilat, boşaltma ve zemin kaplama – projenizi baştan sona yönetiyoruz.",
+      "cta": "Tüm hizmetleri keşfet"
+    },
+    "metaTitle": "Handwerker Reiser – Tadilat · Zemin · Montaj – handwerker-reiser-renovierung.de",
+    "heroCard": {
+      "title": "Proje avantajları",
+      "description": "Müşteriler Handwerker Reiser’a neden güveniyor?"
+    }
+  },
+  "services": {
+    "badge": "Hizmetlerimiz",
+    "title": "Üç ana alan – tek muhatap",
+    "description": "Tüm işlemleri biz koordine ediyoruz; böylece sonuçtan keyif alabilirsin. Planlamadan teslimata kadar şeffaf teklif ve profesyonel uygulama garantisi.",
+    "items": {
+      "renovation": {
+        "title": "Tadilat işleri",
+        "description": "Boyama, alçıpan ve sıhhi tesisat çalışmaları tek ekipten – temiz, zamanında ve uyumlu."
+      },
+      "clearing": {
+        "title": "Boşaltma & bertaraf",
+        "description": "Bodrum, çatı katı veya komple haneler: Düzenliyor ve mevzuata uygun şekilde bertaraf ediyoruz."
+      },
+      "flooring": {
+        "title": "Zemin kaplama",
+        "description": "Parke, vinil ve laminatın profesyonel döşenmesi – alt zemin hazırlığı dahil."
+      }
+    },
+    "cta": "Danışmanlık iste",
+    "metaTitle": "Hizmetler – Handwerker Reiser",
+    "metaDescription": "Tüm işlemleri biz koordine ediyoruz; böylece sonuçtan keyif alabilirsin. Planlamadan teslimata kadar şeffaf teklif ve profesyonel uygulama garantisi."
+  },
+  "appointment": {
+    "badge": "Randevu al",
+    "title": "Doğru uygulama takvimi için üç adım.",
+    "description": "Zamanlamayı senin takvimine göre uyarlıyoruz – talep üzerine akşam veya hafta sonu da mümkündür. İlk görüşmeden sonra kilometre taşlarını içeren ayrıntılı bir plan alırsın.",
+    "bullets": {
+      "call": "Telefon veya görüntülü görüşme ile hızlı planlama.",
+      "timeline": "Açık kilometre taşları ve sorumluluklarla bağlayıcı zaman çizelgesi.",
+      "documentation": "E-posta ile şeffaf dokümantasyon – her zaman izlenebilir."
+    },
+    "cardTitle": "Hemen randevu ayırt",
+    "cardDescription": "Tercih ettiğin kanalı seç – en kısa sürede onaylıyoruz.",
+    "channels": {
+      "phoneTitle": "Telefonla planlama",
+      "phoneDescription": "Bize Pazartesi-Cuma 08:00-18:00 arası ulaş, uygun zamanı birlikte bulalım.",
+      "callbackTitle": "Geri arama iste",
+      "callbackDescription": "Formda istediğin tarih ve saati belirt – seni güvenilir şekilde arıyoruz.",
+      "emailTitle": "E-posta ile koordine et",
+      "emailDescription": "Plan veya belgeleri mi paylaşacaksın? E-posta gönder; biz de hazırlığımızı yapalım.",
+      "callToAction": {
+        "call": "Hemen ara",
+        "form": "Formu aç",
+        "email": "E-posta yaz"
+      }
+    },
+    "metaTitle": "Randevu Al – Handwerker Reiser",
+    "metaDescription": "Zamanlamayı senin takvimine göre uyarlıyoruz – talep üzerine akşam veya hafta sonu da mümkündür. İlk görüşmeden sonra kilometre taşlarını içeren ayrıntılı bir plan alırsın."
+  },
+  "contact": {
+    "badge": "48 saat içinde proje başlangıcı",
+    "title": "Planlama, uygulama ve servis – hepsi tek elden.",
+    "description": "Daireler, müstakil evler veya ofisler: Sana özel teklif hazırlar, tüm ekipleri koordine eder ve düzenli güncellemelerle seni bilgilendiririz. Amacımız sorunsuz bir süreç ve mükemmel sonuçtur.",
+    "bullets": {
+      "consulting": "Şeffaf maliyet ve güvenilir zaman planı ile yerinde danışmanlık.",
+      "teams": "Boyama, zemin ve boşaltma için projene uygun uzman ekipler.",
+      "documentation": "Fotoğraf/video dokümantasyonu ve kalite güvenceli teslim."
+    },
+    "cardTitle": "Projenizi gönderin",
+    "cardDescription": "Bize ihtiyacınızı iletin – bir iş günü içinde dönüş yapıyoruz.",
+    "metaTitle": "İletişim – Handwerker Reiser",
+    "metaDescription": "Daireler, müstakil evler veya ofisler: Sana özel teklif hazırlar, tüm ekipleri koordine eder ve düzenli güncellemelerle seni bilgilendiririz. Amacımız sorunsuz bir süreç ve mükemmel sonuçtur."
+  },
+  "contactForm": {
+    "name": {
+      "label": "Ad ve soyad",
+      "placeholder": "Ahmet Yılmaz",
+      "error": "Lütfen tam adınızı girin."
+    },
+    "email": {
+      "label": "E-posta adresi",
+      "placeholder": "mail@handwerker.com",
+      "error": "Lütfen geçerli bir e-posta adresi girin."
+    },
+    "phone": {
+      "label": "Telefon numarası",
+      "placeholder": "+49 151 1234567",
+      "error": "Lütfen en az 7 karakter içeren bir telefon numarası girin."
+    },
+    "service": {
+      "label": "Talep edilen hizmet",
+      "description": "Açıklama otomatik olarak güncellenir.",
+      "error": "Lütfen ihtiyaç duyduğunuz hizmeti seçin."
+    },
+    "message": {
+      "label": "Proje açıklaması",
+      "placeholder": "Hangi alanlar? İstenen zaman planı, özel gereksinimler...",
+      "error": "Lütfen projeni biraz daha ayrıntılı anlat."
+    },
+    "terms": {
+      "label": "İletişime geçilmesi amacıyla verilerimin işlenmesine onay veriyorum.",
+      "error": "Lütfen gizlilik bilgilendirmesini onaylayın."
+    },
+    "submit": "Gönder",
+    "success": "Teşekkürler! Bir iş günü içinde seninle iletişime geçeceğiz."
+  },
+  "imprint": {
+    "badge": "Künye",
+    "title": "Yasal bilgiler",
+    "intro": "Alman TMG §5 uyarınca bilgiler. Soruların için her zaman telefon veya e-posta ile bize ulaşabilirsin.",
+    "addressTitle": "Şirket bilgileri",
+    "contactTitle": "İletişim",
+    "chamberNote": "Münih Esnaf ve Zanaatkârlar Odası · Üye No: 0123456",
+    "lawNote": "Mesleki düzenlemeler: Alman Zanaatkârlık Kanunu (HwO) · www.gesetze-im-internet.de adresinde erişilebilir",
+    "metaTitle": "Künye – Handwerker Reiser",
+    "metaDescription": "Alman TMG §5 uyarınca bilgiler. Soruların için her zaman telefon veya e-posta ile bize ulaşabilirsin."
+  },
+  "privacy": {
+    "badge": "Gizlilik",
+    "title": "Verilerini nasıl işliyoruz",
+    "intro": "Kişisel verilerini gizli tutuyor ve yasal veri koruma hükümlerine uygun şekilde işliyoruz. Aşağıda en önemli bilgileri özet halinde bulabilirsin.",
+    "paragraphs": {
+      "controller": "Veri işlemeden {{company}}, {{owner}}, {{addressLine1}}, {{addressLine2}}, {{country}} sorumludur. Bize {{email}} üzerinden ulaşabilirsin.",
+      "purpose": "Form yoluyla ilettiğin verileri yalnızca talebini işlemek ve randevu planlamak için kullanıyoruz. Hukuki dayanak: GDPR Madde 6 (1) b.",
+      "sharing": "Verilerini yalnızca sözleşmenin yerine getirilmesi için gerekli ise (ör. alt yükleniciler) veya yasal zorunluluk varsa üçüncü kişilerle paylaşıyoruz. Amaç ortadan kalktığında veriler silinir.",
+      "rights": "Her zaman bilgi alma, düzeltme, silme, işlemenin kısıtlanması, veri taşınabilirliği ve itiraz etme hakkına sahipsin. Vermiş olduğun onayı dilediğin zaman geri çekebilirsin.",
+      "more": "Daha fazla bilgi için ayrıntılı gizlilik politikamıza göz at. Soruların varsa memnuniyetle yardımcı oluruz."
+    },
+    "metaTitle": "Gizlilik – Handwerker Reiser",
+    "metaDescription": "Kişisel verilerini gizli tutuyor ve yasal veri koruma hükümlerine uygun şekilde işliyoruz. Aşağıda en önemli bilgileri özet halinde bulabilirsin."
+  },
+  "cookies": {
+    "badge": "Çerezler & izleme",
+    "title": "GDPR & TTDSG'ye uygun çerez politikası",
+    "intro": "Web sitemizin işlevselliğini sağlamak, hizmetlerimizi geliştirmek ve onayın varsa erişim analizi ile pazarlama yapmak için çerezler ve benzeri teknolojiler kullanıyoruz. Burada kullanılan kategoriler, saklama süreleri ve tercihlerini nasıl yönetebileceğin hakkında bilgi bulacaksın.",
+    "sections": {
+      "controller": {
+        "title": "1. Sorumlu taraf",
+        "text": "Çerezlerden Handwerker Reiser, Max Reiser, Musterstraße 12, 80331 Münih, Almanya sorumludur. Soruların için kontakt@handwerker-reiser.de adresinden bize yaz."
+      },
+      "legal": {
+        "title": "2. Hukuki dayanak (GDPR Madde 6 (1) ve TTDSG §25)",
+        "text": "Teknik olarak gerekli çerezler için GDPR Madde 6 (1) f (meşru menfaat) ve TTDSG §25 (2) No.2 uygulanır. Diğer tüm çerezler yalnızca GDPR Madde 6 (1) a ve TTDSG §25 (1) uyarınca açık onayınla yerleştirilir."
+      },
+      "categories": {
+        "title": "3. Çerez kategorilerine genel bakış",
+        "items": {
+          "essential": "Zorunlu çerezler: Dil seçimi, oturum açma, çerez bannerı gibi temel işlevleri sağlar.",
+          "functional": "Fonksiyonel çerezler: Gömülü haritalar, sohbet ya da randevu araçları gibi ek hizmetleri etkinleştirir. Onay olmadığında devre dışı kalır.",
+          "analytics": "Analiz/istatistik çerezleri: Ziyaretçilerin siteyi nasıl kullandığını anlamamıza yardımcı olur ve içerikleri geliştirmemizi sağlar.",
+          "marketing": "Pazarlama/kişiselleştirme çerezleri: Sana ve iş ortaklarımıza ait sitelerde uygun içerik ve teklifleri gösterir."
+        }
+      },
+      "tools": {
+        "title": "4. Kullanılan araçlar & saklama süresi",
+        "text": "Güncel sağlayıcı listesine (örn. Google Analytics, Meta Pixel, randevu araçları) çerez onay aracımızdan ulaşabilirsin. Orada saklama süreleri ve olası üçüncü ülke aktarımları da belirtilir. Sağlayıcıları düzenli olarak GDPR uyumluluğu açısından kontrol ediyor ve gerekli sözleşmeleri imzalıyoruz."
+      },
+      "consent": {
+        "title": "5. Onayı yönetme veya geri çekme",
+        "text": "Tercihlerini her zaman çerez bannerındaki \"Çerezleri ayarla\" bağlantısından değiştirebilir veya geri çekebilirsin. Ayrıca tarayıcı ayarlarından mevcut çerezleri silebilirsin. Onayı geri çekmen bazı işlevlerin devre dışı kalmasına yol açabilir.",
+        "steps": {
+          "one": "Sayfanın sonuna in ve \"Çerezleri ayarla\"ya tıkla.",
+          "two": "İstediğin kategorileri seç (Zorunlu, Fonksiyonel, İstatistik, Pazarlama).",
+          "three": "\"Kaydet\" ile tercihini onayla."
+        }
+      },
+      "browser": {
+        "title": "6. Tarayıcı ayarları",
+        "text": "Aşağıdaki bağlantılardan yaygın tarayıcılarda çerezleri yönetebilir veya devre dışı bırakabilirsin:",
+        "links": {
+          "chrome": "Google Chrome",
+          "firefox": "Mozilla Firefox",
+          "safari": "Apple Safari",
+          "edge": "Microsoft Edge"
+        }
+      },
+      "thirdCountry": {
+        "title": "7. Üçüncü ülkelere veri aktarımı",
+        "text": "Bazı sağlayıcılar verileri AB/AEA dışındaki ülkelerde işler. Bu ülkelerde veri koruma seviyesi farklı olabilir. Aktarım yalnızca uygun güvenceler mevcutsa (örn. AB Standart Sözleşme Maddeleri) veya açık onayın varsa yapılır."
+      },
+      "rights": {
+        "title": "8. Hakların",
+        "text": "Bilgi alma, düzeltme, silme, işlemenin sınırlandırılması, veri taşınabilirliği ve itiraz hakkına sahipsin. Onayı geri çekmen, geri çekmeden önceki işlemenin hukuka uygunluğunu etkilemez."
+      },
+      "update": {
+        "title": "9. Politika güncellemeleri",
+        "text": "Kullandığımız araçlar, yasal gereklilikler veya iç süreçler değiştiğinde bu çerez politikasını güncelliyoruz. Güncel tarih aşağıda yer alır.",
+        "timestamp": "Son güncelleme: {{date}}"
+      }
+    },
+    "browserLinks": {
+      "chrome": "https://support.google.com/chrome/answer/95647?hl=tr",
+      "firefox": "https://support.mozilla.org/tr/kb/cerezlere-izin-verme-veya-reddetme",
+      "safari": "https://support.apple.com/tr-tr/guide/safari/sfri11471/mac",
+      "edge": "https://support.microsoft.com/tr-tr/topic/cerezleri-silme-ve-yonetme-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    "metaTitle": "Çerezler – Handwerker Reiser",
+    "metaDescription": "Web sitemizin işlevselliğini sağlamak, hizmetlerimizi geliştirmek ve onayın varsa erişim analizi ile pazarlama yapmak için çerezler ve benzeri teknolojiler kullanıyoruz. Burada kullanılan kategoriler, saklama süreleri ve tercihlerini nasıl yönetebileceğin hakkında bilgi bulacaksın."
+  }
+}

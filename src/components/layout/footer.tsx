@@ -1,33 +1,34 @@
+import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
 
 import { contactInfo } from "@/lib/content"
 
 const footerLinks = [
-  { label: "Leistungen", to: "/leistungen" },
-  { label: "Termin", to: "/termin" },
-  { label: "Kontakt", to: "/kontakt" },
-  { label: "Impressum", to: "/impressum" },
-  { label: "Cookies", to: "/cookies" },
-  { label: "Datenschutz", to: "/datenschutz" },
+  { labelKey: "nav.services", to: "/leistungen" },
+  { labelKey: "nav.appointment", to: "/termin" },
+  { labelKey: "nav.contact", to: "/kontakt" },
+  { labelKey: "nav.imprint", to: "/impressum" },
+  { labelKey: "nav.cookies", to: "/cookies" },
+  { labelKey: "nav.privacy", to: "/datenschutz" },
 ]
 
 export function Footer() {
+  const { t } = useTranslation()
+
   return (
     <footer className="border-t border-border bg-background/80">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-6 py-12 text-sm text-muted-foreground md:flex-row md:items-start md:justify-between md:px-10 lg:px-12">
         <div className="max-w-md space-y-3">
-          <p className="text-lg font-semibold text-foreground">
-            {contactInfo.company}
-          </p>
+          <p className="text-lg font-semibold text-foreground">{t("footer.contactTitle")}</p>
           <p>
             {contactInfo.addressLine1}
             <br />
             {contactInfo.addressLine2}
             <br />
-            {contactInfo.addressCountry}
+            {t("footer.country")}
           </p>
           <p>
-            Telefon:{" "}
+            {t("footer.phone")}:{" "}
             <a
               href={`tel:${contactInfo.phone.replace(/\s/g, "")}`}
               className="text-foreground underline-offset-4 hover:underline"
@@ -35,7 +36,7 @@ export function Footer() {
               {contactInfo.phone}
             </a>
             <br />
-            Mobil:{" "}
+            {t("footer.mobile")}:{" "}
             <a
               href={`tel:${contactInfo.mobile.replace(/\s/g, "")}`}
               className="text-foreground underline-offset-4 hover:underline"
@@ -43,7 +44,7 @@ export function Footer() {
               {contactInfo.mobile}
             </a>
             <br />
-            E-Mail:{" "}
+            {t("footer.email")}:{" "}
             <a
               href={`mailto:${contactInfo.email}`}
               className="text-foreground underline-offset-4 hover:underline"
@@ -60,21 +61,20 @@ export function Footer() {
                 to={link.to}
                 className="transition hover:text-foreground"
               >
-                {link.label}
+                {t(link.labelKey)}
               </Link>
             ))}
           </nav>
           <p className="text-xs">
-            {contactInfo.chamberNote}
+            {t("footer.chamberNote")}
             <br />
-            {contactInfo.lawNote}
+            {t("footer.lawNote")}
           </p>
           <p className="text-xs">
-            Inhaber: {contactInfo.owner} · USt-IdNr.: {contactInfo.vatId}
+            {t("footer.owner", { name: contactInfo.owner, vatId: contactInfo.vatId })}
           </p>
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} {contactInfo.company}. Alle Rechte
-            vorbehalten.
+            {t("footer.rights", { year: new Date().getFullYear() })}
           </p>
         </div>
       </div>

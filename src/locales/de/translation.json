@@ -1,0 +1,264 @@
+{
+  "nav": {
+    "home": "Start",
+    "services": "Meine Leistungen",
+    "appointment": "Termin vereinbaren",
+    "contact": "Kontakt",
+    "imprint": "Impressum",
+    "cookies": "Cookies",
+    "privacy": "Datenschutz"
+  },
+  "theme": {
+    "toggle": "Darstellung umschalten",
+    "status": {
+      "on": "Dark Mode aktiv",
+      "off": "Dark Mode deaktiviert"
+    }
+  },
+  "footer": {
+    "contactTitle": "Handwerker Reiser",
+    "phone": "Telefon",
+    "mobile": "Mobil",
+    "email": "E-Mail",
+    "chamberNote": "Handwerkskammer München · Mitgliedsnummer: 0123456",
+    "lawNote": "Berufsrechtliche Regelungen: Handwerksordnung (HwO) · einsehbar unter www.gesetze-im-internet.de",
+    "owner": "Inhaber: {{name}} · USt-IdNr.: {{vatId}}",
+    "rights": "© {{year}} Handwerker Reiser. Alle Rechte vorbehalten.",
+    "country": "Deutschland"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die angeforderte Seite existiert nicht. Bitte überprüfe die URL oder kehre zur Startseite zurück.",
+    "cta": "Zur Startseite"
+  },
+  "home": {
+    "hero": {
+      "badge": "Handwerker Reiser · Meisterbetrieb",
+      "title": "Renovierung, Entrümpelung & Böden aus einer Hand.",
+      "description": "Wir unterstützen Hausverwaltungen, Eigentümer:innen und Unternehmen bei Renovierungen, Entrümpelungen und Bodenarbeiten. Persönlich, zuverlässig und mit Liebe zum Detail.",
+      "ctaPrimary": "Kostenlose Beratung sichern",
+      "ctaSecondary": "Unsere Leistungen"
+    },
+    "highlights": {
+      "master": {
+        "title": "Meisterbetrieb",
+        "description": "Über 15 Jahre Erfahrung im Ausbau von Wohn- und Gewerbeflächen."
+      },
+      "speed": {
+        "title": "Schnelle Umsetzung",
+        "description": "Verlässliche Terminplanung und klare Kommunikation vom ersten Gespräch bis zur Abnahme."
+      },
+      "quality": {
+        "title": "Qualität garantiert",
+        "description": "Wir arbeiten ausschließlich mit hochwertigen Materialien und Fachkräften."
+      }
+    },
+    "process": {
+      "badge": "Projektstart in 48 Stunden",
+      "title": "Planung, Umsetzung & Service – alles aus einer Hand.",
+      "description": "Ob Mietwohnung, Einfamilienhaus oder Bürofläche: Wir erstellen dir ein individuelles Angebot, koordinieren alle Gewerke und halten dich mit regelmäßigen Updates auf dem Laufenden. Unser Ziel ist ein reibungsloser Ablauf und ein Ergebnis, das begeistert.",
+      "bullets": {
+        "consulting": "Individuelle Beratung vor Ort mit klarer Kostentransparenz und fester Zeitplanung.",
+        "teams": "Eigene Teams für Maler-, Boden- und Entsorgungsarbeiten – abgestimmt auf dein Projekt.",
+        "documentation": "Dokumentation per Foto & Video sowie persönliche Abnahme mit Qualitätssicherung."
+      },
+      "cardTitle": "Unsere Schwerpunkte im Überblick",
+      "cardDescription": "Renovierung, Entrümpelung und Bodenarbeiten – wir betreuen dein Projekt ganzheitlich.",
+      "cta": "Alle Leistungen entdecken"
+    },
+    "metaTitle": "Handwerker Reiser – Renovierung · Boden · Montage – handwerker-reiser-renovierung.de",
+    "heroCard": {
+      "title": "Projektvorteile",
+      "description": "Darum vertrauen Kund:innen auf Handwerker Reiser."
+    }
+  },
+  "services": {
+    "badge": "Unsere Leistungen",
+    "title": "Drei Schwerpunkte – ein Ansprechpartner",
+    "description": "Wir koordinieren sämtliche Gewerke, damit du dich entspannt auf das Ergebnis freuen kannst. Verlasse dich auf transparente Angebote und fachgerechte Umsetzung – von der Planung über die Ausführung bis zur Abnahme.",
+    "items": {
+      "renovation": {
+        "title": "Renovierungsarbeiten",
+        "description": "Maler-, Trockenbau- und Sanitärarbeiten aus einer Hand – sauber, termintreu und perfekt abgestimmt."
+      },
+      "clearing": {
+        "title": "Entrümpelung & Entsorgung",
+        "description": "Ganz gleich ob Keller, Dachboden oder komplette Haushalte: Wir räumen auf und entsorgen fachgerecht."
+      },
+      "flooring": {
+        "title": "Boden verlegen",
+        "description": "Professionelle Verlegung von Parkett, Vinyl und Laminat inklusive Untergrund-Vorbereitung."
+      }
+    },
+    "cta": "Beratung anfragen",
+    "metaTitle": "Leistungen – Handwerker Reiser",
+    "metaDescription": "Wir koordinieren sämtliche Gewerke, damit du dich entspannt auf das Ergebnis freuen kannst. Verlasse dich auf transparente Angebote und fachgerechte Umsetzung – von der Planung über die Ausführung bis zur Abnahme."
+  },
+  "appointment": {
+    "badge": "Termin vereinbaren",
+    "title": "In drei Schritten zum passenden Ausführungstermin.",
+    "description": "Wir stimmen Terminfenster flexibel auf deinen Kalender ab – auf Wunsch auch abends oder am Wochenende. Nach dem Erstgespräch erhältst du einen detaillierten Ablaufplan inklusive aller Meilensteine.",
+    "bullets": {
+      "call": "Kurze Terminabstimmung via Telefon oder Video-Call.",
+      "timeline": "Verbindlicher Zeitplan mit klaren Zwischenschritten und Verantwortlichkeiten.",
+      "documentation": "Transparente Dokumentation per Mail – jederzeit nachvollziehbar."
+    },
+    "cardTitle": "Direkt einen Termin reservieren",
+    "cardDescription": "Wähle deinen bevorzugten Kanal – wir melden uns umgehend mit einer Bestätigung.",
+    "channels": {
+      "phoneTitle": "Telefonische Abstimmung",
+      "phoneDescription": "Erreiche uns montags bis freitags zwischen 8 und 18 Uhr – wir finden sicher einen Termin.",
+      "callbackTitle": "Rückruf vereinbaren",
+      "callbackDescription": "Teile uns Wunschdatum und Uhrzeit im Formular mit – wir rufen verlässlich zurück.",
+      "emailTitle": "Per E-Mail abstimmen",
+      "emailDescription": "Zusätzliche Dokumente oder Grundrisse? Einfach per Mail senden – wir bereiten alles vor.",
+      "callToAction": {
+        "call": "Jetzt anrufen",
+        "form": "Formular ausfüllen",
+        "email": "E-Mail schreiben"
+      }
+    },
+    "metaTitle": "Termin vereinbaren – Handwerker Reiser",
+    "metaDescription": "Wir stimmen Terminfenster flexibel auf deinen Kalender ab – auf Wunsch auch abends oder am Wochenende. Nach dem Erstgespräch erhältst du einen detaillierten Ablaufplan inklusive aller Meilensteine."
+  },
+  "contact": {
+    "badge": "Projektstart in 48 Stunden",
+    "title": "Planung, Umsetzung & Service – alles aus einer Hand.",
+    "description": "Ob Mietwohnung, Einfamilienhaus oder Bürofläche: Wir erstellen dir ein individuelles Angebot, koordinieren alle Gewerke und halten dich mit regelmäßigen Updates auf dem Laufenden. Unser Ziel ist ein reibungsloser Ablauf und ein Ergebnis, das begeistert.",
+    "bullets": {
+      "consulting": "Individuelle Beratung vor Ort mit klarer Kostentransparenz und fester Zeitplanung.",
+      "teams": "Eigene Teams für Maler-, Boden- und Entsorgungsarbeiten – abgestimmt auf dein Projekt.",
+      "documentation": "Dokumentation per Foto & Video sowie persönliche Abnahme mit Qualitätssicherung."
+    },
+    "cardTitle": "Projekt anfragen",
+    "cardDescription": "Teile uns dein Vorhaben mit – wir melden uns innerhalb eines Werktags.",
+    "metaTitle": "Kontakt – Handwerker Reiser",
+    "metaDescription": "Ob Mietwohnung, Einfamilienhaus oder Bürofläche: Wir erstellen dir ein individuelles Angebot, koordinieren alle Gewerke und halten dich mit regelmäßigen Updates auf dem Laufenden. Unser Ziel ist ein reibungsloser Ablauf und ein Ergebnis, das begeistert."
+  },
+  "contactForm": {
+    "name": {
+      "label": "Vor- und Nachname",
+      "placeholder": "Max Mustermann",
+      "error": "Bitte gib deinen vollständigen Namen an."
+    },
+    "email": {
+      "label": "E-Mail-Adresse",
+      "placeholder": "mail@handwerker.de",
+      "error": "Bitte gib eine gültige E-Mail-Adresse an."
+    },
+    "phone": {
+      "label": "Telefonnummer",
+      "placeholder": "+49 151 1234567",
+      "error": "Bitte gib eine Telefonnummer mit mindestens 7 Zeichen an."
+    },
+    "service": {
+      "label": "Gewünschte Leistung",
+      "description": "Beschreibung folgt automatisch.",
+      "error": "Bitte wähle eine gewünschte Leistung aus."
+    },
+    "message": {
+      "label": "Projektbeschreibung",
+      "placeholder": "Welche Räume sollen renoviert werden? Wunschtermin, Besonderheiten...",
+      "error": "Beschreibe dein Projekt bitte etwas ausführlicher."
+    },
+    "terms": {
+      "label": "Ich stimme der Verarbeitung meiner Angaben zum Zweck der Kontaktaufnahme zu.",
+      "error": "Bitte bestätige die Datenschutzhinweise."
+    },
+    "submit": "Anfrage senden",
+    "success": "Danke für deine Anfrage! Wir melden uns innerhalb eines Werktags."
+  },
+  "imprint": {
+    "badge": "Impressum",
+    "title": "Rechtliche Angaben",
+    "intro": "Angaben gemäß § 5 TMG. Bei Fragen rund um das Impressum erreichst du uns jederzeit telefonisch oder per E-Mail.",
+    "addressTitle": "Unternehmensangaben",
+    "contactTitle": "Kontakt",
+    "chamberNote": "Handwerkskammer München · Mitgliedsnummer: 0123456",
+    "lawNote": "Berufsrechtliche Regelungen: Handwerksordnung (HwO) · einsehbar unter www.gesetze-im-internet.de",
+    "metaTitle": "Impressum – Handwerker Reiser",
+    "metaDescription": "Angaben gemäß § 5 TMG. Bei Fragen rund um das Impressum erreichst du uns jederzeit telefonisch oder per E-Mail."
+  },
+  "privacy": {
+    "badge": "Datenschutz",
+    "title": "Hinweise zum Umgang mit deinen Daten",
+    "intro": "Wir behandeln deine personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften. Nachfolgend findest du die wichtigsten Informationen in kompakter Form.",
+    "paragraphs": {
+      "controller": "Verantwortlich für die Datenverarbeitung ist {{company}}, {{owner}}, {{addressLine1}}, {{addressLine2}}, {{country}}. Du erreichst uns unter {{email}}.",
+      "purpose": "Wir verarbeiten die im Formular übermittelten Daten ausschließlich zur Bearbeitung deiner Anfrage und Terminvereinbarung. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.",
+      "sharing": "Eine Weitergabe an Dritte erfolgt nur, sofern dies zur Vertragserfüllung erforderlich ist (z. B. Subunternehmer) oder wir gesetzlich dazu verpflichtet sind. Deine Daten werden gelöscht, sobald der Verarbeitungszweck entfällt.",
+      "rights": "Du hast jederzeit das Recht auf Auskunft, Berichtigung, Löschung sowie Einschränkung der Verarbeitung deiner personenbezogenen Daten. Außerdem kannst du der Verarbeitung widersprechen oder eine erteilte Einwilligung widerrufen.",
+      "more": "Weitere Details findest du in unserer ausführlichen Datenschutzerklärung. Bei Fragen stehen wir dir gerne zur Verfügung."
+    },
+    "metaTitle": "Datenschutz – Handwerker Reiser",
+    "metaDescription": "Wir behandeln deine personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften. Nachfolgend findest du die wichtigsten Informationen in kompakter Form."
+  },
+  "cookies": {
+    "badge": "Cookies & Tracking",
+    "title": "Cookie-Richtlinie nach DSGVO & TTDSG",
+    "intro": "Wir nutzen Cookies und ähnliche Technologien, um unsere Website funktionsfähig zu halten, Services zu verbessern und – sofern du einwilligst – Reichweitenmessung sowie Marketing zu ermöglichen. Auf dieser Seite findest du alle Informationen zu den eingesetzten Kategorien, der Speicherdauer und deinen Widerspruchsmöglichkeiten.",
+    "sections": {
+      "controller": {
+        "title": "1. Verantwortliche Stelle",
+        "text": "Verantwortlich für den Einsatz von Cookies ist Handwerker Reiser, Max Reiser, Musterstraße 12, 80331 München, Deutschland. Bei Fragen erreichst du uns unter kontakt@handwerker-reiser.de."
+      },
+      "legal": {
+        "title": "2. Rechtliche Grundlage (Art. 6 Abs. 1 DSGVO & § 25 TTDSG)",
+        "text": "Für technisch notwendige Cookies stützen wir uns auf Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse) und § 25 Abs. 2 Nr. 2 TTDSG. Alle weiteren Cookies werden nur gesetzt, wenn du nach Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG ausdrücklich eingewilligt hast."
+      },
+      "categories": {
+        "title": "3. Cookie-Kategorien im Überblick",
+        "items": {
+          "essential": "Essenzielle Cookies: sorgen für die Grundfunktionen der Website (z. B. Spracheinstellungen, Log-in, Cookie-Banner).",
+          "functional": "Funktionale Cookies: ermöglichen zusätzliche Services wie eingebettete Karten, Chat- oder Terminbuchungs-Widgets. Ohne deine Einwilligung bleiben diese Dienste deaktiviert.",
+          "analytics": "Analyse-/Statistik-Cookies: helfen uns zu verstehen, wie Besucher:innen unsere Seiten nutzen, um Inhalte zu verbessern.",
+          "marketing": "Marketing-/Personalisierungs-Cookies: dienen dazu, dir relevante Inhalte und Angebote anzuzeigen – auch auf Websites unserer Partner."
+        }
+      },
+      "tools": {
+        "title": "4. Eingesetzte Tools & Speicherdauer",
+        "text": "Eine aktuelle Liste der jeweils eingesetzten Anbieter (z. B. Google Analytics, Meta Pixel, Termin-Widgets) findest du in unserem Cookie-Consent-Tool. Dort erfährst du auch, wie lange die einzelnen Cookies gespeichert werden und ob Daten in Drittländer übertragen werden. Wir prüfen alle Drittanbieter regelmäßig auf DSGVO-Konformität und schließen erforderliche Auftragsverarbeitungsverträge ab."
+      },
+      "consent": {
+        "title": "5. Einwilligung verwalten oder widerrufen",
+        "text": "Du kannst deine Auswahl jederzeit über das Cookie-Banner (Link „Cookies anpassen“) ändern oder widerrufen. Zusätzlich kannst du bereits gesetzte Cookies in den Einstellungen deines Browsers löschen. Bitte beachte, dass nach einem Widerruf ggf. nicht mehr alle Funktionen verfügbar sind.",
+        "steps": {
+          "one": "Scrolle ans Seitenende und klicke auf „Cookies anpassen“.",
+          "two": "Wähle die gewünschten Kategorien (Essentiell, Funktional, Statistik, Marketing).",
+          "three": "Bestätige deine Auswahl mit „Speichern“."
+        }
+      },
+      "browser": {
+        "title": "6. Browser-Einstellungen",
+        "text": "Über die folgenden Links kannst du Cookies in gängigen Browsern verwalten bzw. deaktivieren:",
+        "links": {
+          "chrome": "Google Chrome",
+          "firefox": "Mozilla Firefox",
+          "safari": "Apple Safari",
+          "edge": "Microsoft Edge"
+        }
+      },
+      "thirdCountry": {
+        "title": "7. Drittlandsübermittlungen",
+        "text": "Manche Anbieter verarbeiten Daten in Ländern außerhalb der EU/des EWR, in denen kein gleichwertiges Datenschutzniveau besteht. In solchen Fällen erfolgt die Übermittlung nur, wenn geeignete Garantien vorliegen (z. B. EU-Standardvertragsklauseln) oder du ausdrücklich zugestimmt hast."
+      },
+      "rights": {
+        "title": "8. Deine Rechte",
+        "text": "Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung sowie Datenübertragbarkeit und Widerspruch. Ein Widerruf deiner Einwilligung berührt nicht die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung."
+      },
+      "update": {
+        "title": "9. Aktualisierung dieser Richtlinie",
+        "text": "Wir passen diese Cookie-Richtlinie an, sobald sich unsere eingesetzten Tools, die Rechtslage oder unsere internen Prozesse ändern. Das Datum der letzten Aktualisierung findest du nachfolgend.",
+        "timestamp": "Letzte Aktualisierung: {{date}}"
+      }
+    },
+    "browserLinks": {
+      "chrome": "https://support.google.com/chrome/answer/95647",
+      "firefox": "https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen",
+      "safari": "https://support.apple.com/de-de/guide/safari/sfri11471/mac",
+      "edge": "https://support.microsoft.com/de-de/topic/löschen-und-verwalten-von-cookies-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    "metaTitle": "Cookies – Handwerker Reiser",
+    "metaDescription": "Wir nutzen Cookies und ähnliche Technologien, um unsere Website funktionsfähig zu halten, Services zu verbessern und – sofern du einwilligst – Reichweitenmessung sowie Marketing zu ermöglichen. Auf dieser Seite findest du alle Informationen zu den eingesetzten Kategorien, der Speicherdauer und deinen Widerspruchsmöglichkeiten."
+  }
+}

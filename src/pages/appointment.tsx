@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next"
 import { Helmet } from "react-helmet-async"
 import { Link } from "react-router-dom"
 
@@ -12,83 +13,83 @@ import {
 } from "@/components/ui/card"
 
 export function AppointmentPage() {
+  const { t } = useTranslation()
+  const metaTitle = t("appointment.metaTitle")
+  const metaDescription = t("appointment.metaDescription")
+
   return (
     <>
       <Helmet>
-        <title>Termin vereinbaren | Handwerker Reiser</title>
-        <meta
-          name="description"
-          content="Vereinbare deinen Wunschtermin mit Handwerker Reiser. Wir stimmen uns flexibel nach deinem Zeitplan ab und koordinieren alle Gewerke zuverlässig."
-        />
-        <meta property="og:title" content="Termin vereinbaren | Handwerker Reiser" />
-        <meta
-          property="og:description"
-          content="Buche deinen Beratungstermin mit Handwerker Reiser – telefonisch, per Rückruf oder E-Mail."
-        />
+        <title>{metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+        <meta property="og:title" content={metaTitle} />
+        <meta property="og:description" content={metaDescription} />
         <meta property="og:type" content="website" />
       </Helmet>
       <section className="mx-auto w-full max-w-6xl px-6 py-16 md:px-10 lg:px-12">
-      <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
-        <div className="space-y-6">
-          <Badge variant="secondary" className="w-fit">
-            Termin vereinbaren
-          </Badge>
-          <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            In drei Schritten zum passenden Ausführungstermin.
-          </h1>
-          <p className="text-muted-foreground">
-            Wir stimmen Terminfenster flexibel auf deinen Kalender ab – auf Wunsch auch abends oder am
-            Wochenende. Nach dem Erstgespräch erhältst du einen detaillierten Ablaufplan inklusive aller
-            Meilensteine.
-          </p>
+        <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="space-y-6">
+            <Badge variant="secondary" className="w-fit">
+              {t("appointment.badge")}
+            </Badge>
+            <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              {t("appointment.title")}
+            </h1>
+            <p className="text-muted-foreground">{t("appointment.description")}</p>
           <ul className="space-y-3 text-muted-foreground">
             <li className="flex items-start gap-3">
               <div className="mt-1 h-2.5 w-2.5 rounded-full bg-primary" />
-              <span>Kurze Terminabstimmung via Telefon oder Video-Call.</span>
+              <span>{t("appointment.bullets.call")}</span>
             </li>
             <li className="flex items-start gap-3">
               <div className="mt-1 h-2.5 w-2.5 rounded-full bg-primary" />
-              <span>Verbindlicher Zeitplan mit klaren Zwischenschritten und Verantwortlichkeiten.</span>
+              <span>{t("appointment.bullets.timeline")}</span>
             </li>
             <li className="flex items-start gap-3">
               <div className="mt-1 h-2.5 w-2.5 rounded-full bg-primary" />
-              <span>Transparente Dokumentation per Mail – jederzeit nachvollziehbar.</span>
+              <span>{t("appointment.bullets.documentation")}</span>
             </li>
           </ul>
         </div>
         <Card className="border border-primary/10 bg-background/90 shadow-md shadow-primary/5">
           <CardHeader>
-            <CardTitle>Direkt einen Termin reservieren</CardTitle>
-            <CardDescription>
-              Wähle deinen bevorzugten Kanal – wir melden uns umgehend mit einer Bestätigung.
-            </CardDescription>
+            <CardTitle>{t("appointment.cardTitle")}</CardTitle>
+            <CardDescription>{t("appointment.cardDescription")}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-5">
             <div className="rounded-lg border border-border bg-muted/20 p-4">
-              <p className="text-sm font-semibold text-foreground">Telefonische Abstimmung</p>
+              <p className="text-sm font-semibold text-foreground">
+                {t("appointment.channels.phoneTitle")}
+              </p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Erreiche uns montags bis freitags zwischen 8 und 18 Uhr – wir finden sicher einen Termin.
+                {t("appointment.channels.phoneDescription")}
               </p>
               <Button variant="outline" className="mt-3 w-full" asChild>
-                <a href="tel:+491511234567">Jetzt anrufen</a>
+                <a href="tel:+491511234567">{t("appointment.channels.callToAction.call")}</a>
               </Button>
             </div>
             <div className="rounded-lg border border-border bg-muted/20 p-4">
-              <p className="text-sm font-semibold text-foreground">Rückruf vereinbaren</p>
+              <p className="text-sm font-semibold text-foreground">
+                {t("appointment.channels.callbackTitle")}
+              </p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Teile uns Wunschdatum und Uhrzeit im Formular mit – wir rufen verlässlich zurück.
+                {t("appointment.channels.callbackDescription")}
               </p>
               <Button className="mt-3 w-full" asChild>
-                <Link to="/kontakt">Formular ausfüllen</Link>
+                <Link to="/kontakt">{t("appointment.channels.callToAction.form")}</Link>
               </Button>
             </div>
             <div className="rounded-lg border border-border bg-muted/20 p-4">
-              <p className="text-sm font-semibold text-foreground">Per E-Mail abstimmen</p>
+              <p className="text-sm font-semibold text-foreground">
+                {t("appointment.channels.emailTitle")}
+              </p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Zusätzliche Dokumente oder Grundrisse? Einfach per Mail senden – wir bereiten alles vor.
+                {t("appointment.channels.emailDescription")}
               </p>
               <Button variant="ghost" className="mt-3 w-full" asChild>
-                <a href="mailto:kontakt@handwerker-reiser.de">E-Mail schreiben</a>
+                <a href="mailto:kontakt@handwerker-reiser.de">
+                  {t("appointment.channels.callToAction.email")}
+                </a>
               </Button>
             </div>
           </CardContent>

@@ -13,56 +13,52 @@ export type ServiceId = (typeof SERVICE_IDS)[number]
 
 export type Service = {
   id: ServiceId
-  title: string
-  description: string
+  titleKey: string
+  descriptionKey: string
   icon: LucideIcon
 }
 
 export const services: Service[] = [
   {
     id: "renovierung",
-    title: "Renovierungsarbeiten",
-    description:
-      "Maler-, Trockenbau- und Sanitärarbeiten aus einer Hand – sauber, termintreu und perfekt abgestimmt.",
+    titleKey: "services.items.renovation.title",
+    descriptionKey: "services.items.renovation.description",
     icon: Paintbrush,
   },
   {
     id: "entruempelung",
-    title: "Entrümpelung & Entsorgung",
-    description:
-      "Ganz gleich ob Keller, Dachboden oder komplette Haushalte: Wir räumen auf und entsorgen fachgerecht.",
+    titleKey: "services.items.clearing.title",
+    descriptionKey: "services.items.clearing.description",
     icon: Trash2,
   },
   {
     id: "boden",
-    title: "Boden verlegen",
-    description:
-      "Professionelle Verlegung von Parkett, Vinyl und Laminat inklusive Untergrund-Vorbereitung.",
+    titleKey: "services.items.flooring.title",
+    descriptionKey: "services.items.flooring.description",
     icon: Ruler,
   },
 ]
 
 export type Highlight = {
-  title: string
-  description: string
+  titleKey: string
+  descriptionKey: string
   icon: LucideIcon
 }
 
 export const highlights: Highlight[] = [
   {
-    title: "Meisterbetrieb",
-    description: "Über 15 Jahre Erfahrung im Ausbau von Wohn- und Gewerbeflächen.",
+    titleKey: "home.highlights.master.title",
+    descriptionKey: "home.highlights.master.description",
     icon: Award,
   },
   {
-    title: "Schnelle Umsetzung",
-    description:
-      "Verlässliche Terminplanung und klare Kommunikation vom ersten Gespräch bis zur Abnahme.",
+    titleKey: "home.highlights.speed.title",
+    descriptionKey: "home.highlights.speed.description",
     icon: Clock,
   },
   {
-    title: "Qualität garantiert",
-    description: "Wir arbeiten ausschließlich mit hochwertigen Materialien und Fachkräften.",
+    titleKey: "home.highlights.quality.title",
+    descriptionKey: "home.highlights.quality.description",
     icon: ShieldCheck,
   },
 ]
@@ -75,10 +71,6 @@ export const contactInfo = {
   phone: "+49 89 123 45 67",
   mobile: "+49 151 123 45 67",
   email: "kontakt@handwerker-reiser.de",
-  chamberNote: "Handwerkskammer München · Mitgliedsnummer: 0123456",
-  lawNote:
-    "Berufsrechtliche Regelungen: Handwerksordnung (HwO) · einsehbar unter www.gesetze-im-internet.de",
   vatId: "DE999999999",
   owner: "Max Reiser",
 }
-

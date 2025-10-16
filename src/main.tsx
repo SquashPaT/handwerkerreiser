@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client"
 import { HelmetProvider } from "react-helmet-async"
 import { BrowserRouter } from "react-router-dom"
 
+import "@/i18n"
 import App from "./App.tsx"
 import { ThemeProvider } from "@/components/theme/theme-provider"
 import "./index.css"

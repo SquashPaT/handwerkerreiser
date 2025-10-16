@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { useTranslation } from "react-i18next"
 import { Link, NavLink } from "react-router-dom"
 import { Menu, Moon, Sun } from "lucide-react"
 
@@ -7,18 +8,26 @@ import { Button } from "@/components/ui/button"
 import { useTheme } from "@/components/theme/theme-provider"
 
 const navItems = [
-  { label: "Start", to: "/" },
-  { label: "Meine Leistungen", to: "/leistungen" },
-  { label: "Termin vereinbaren", to: "/termin" },
-  { label: "Kontakt", to: "/kontakt" },
-  { label: "Impressum", to: "/impressum" },
-  { label: "Cookies", to: "/cookies" },
-  { label: "Datenschutz", to: "/datenschutz" },
+  { labelKey: "nav.home", to: "/" },
+  { labelKey: "nav.services", to: "/leistungen" },
+  { labelKey: "nav.appointment", to: "/termin" },
+  { labelKey: "nav.contact", to: "/kontakt" },
+  { labelKey: "nav.imprint", to: "/impressum" },
+  { labelKey: "nav.cookies", to: "/cookies" },
+  { labelKey: "nav.privacy", to: "/datenschutz" },
 ]
 
 export function Navbar() {
   const [open, setOpen] = useState(false)
   const { theme, toggleTheme } = useTheme()
+  const { t, i18n } = useTranslation()
+
+  const supportedLanguages = [
+    { code: "de", label: "DE" },
+    { code: "en", label: "EN" },
+    { code: "tr", label: "TR" },
+    { code: "it", label: "IT" },
+  ]
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
     cn(
@@ -38,18 +47,31 @@ export function Navbar() {
           className="text-lg font-semibold tracking-tight text-foreground"
           onClick={handleItemClick}
         >
-          Handwerker Reiser
+          {t("footer.contactTitle")}
         </Link>
         <div className="hidden items-center gap-1 md:flex">
           {navItems.map((item) => (
             <NavLink key={item.to} to={item.to} className={linkClass}>
-              {item.label}
+              {t(item.labelKey)}
             </NavLink>
           ))}
+          <div className="flex items-center gap-1 pr-2">
+            {supportedLanguages.map(({ code, label }) => (
+              <Button
+                key={code}
+                variant={i18n.resolvedLanguage === code ? "default" : "ghost"}
+                size="sm"
+                className="px-2"
+                onClick={() => void i18n.changeLanguage(code)}
+              >
+                {label}
+              </Button>
+            ))}
+          </div>
           <Button
             variant="ghost"
             size="icon"
-            aria-label="Darstellung umschalten"
+            aria-label={t("theme.toggle")}
             onClick={toggleTheme}
           >
             <Sun
@@ -64,7 +86,7 @@ export function Navbar() {
           <Button
             variant="ghost"
             size="icon"
-            aria-label="Darstellung umschalten"
+            aria-label={t("theme.toggle")}
             onClick={toggleTheme}
           >
             <Sun
@@ -99,7 +121,7 @@ export function Navbar() {
             className={linkClass}
             onClick={handleItemClick}
           >
-            {item.label}
+            {t(item.labelKey)}
           </NavLink>
         ))}
         <Button
@@ -116,8 +138,28 @@ export function Navbar() {
           <Moon
             className={cn("h-4 w-4", theme === "dark" ? "block" : "hidden")}
           />
-          Dark Mode {theme === "dark" ? "aktiv" : "deaktiviert"}
+          {theme === "dark" ? t("theme.status.on") : t("theme.status.off")}
         </Button>
+        <div className="flex flex-wrap gap-2 text-xs text-muted-foreground">
+          {supportedLanguages.map(({ code, label }) => (
+            <button
+              key={code}
+              type="button"
+              onClick={() => {
+                void i18n.changeLanguage(code)
+                handleItemClick()
+              }}
+              className={cn(
+                "rounded-md border px-2 py-1 transition",
+                i18n.resolvedLanguage === code
+                  ? "border-primary text-primary"
+                  : "border-border hover:border-primary/70 hover:text-foreground",
+              )}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
       </div>
     </nav>
   )

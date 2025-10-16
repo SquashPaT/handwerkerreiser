@@ -1,4 +1,6 @@
-import { useState } from "react"
+import { useMemo, useState } from "react"
+import type { TFunction } from "i18next"
+import { useTranslation } from "react-i18next"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { z } from "zod"
@@ -18,35 +20,39 @@ import {
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
-export const contactSchema = z.object({
-  name: z
-    .string()
-    .min(2, "Bitte gib deinen vollständigen Namen an."),
-  email: z.string().email("Bitte gib eine gültige E-Mail-Adresse an."),
-  phone: z
-    .string()
-    .min(7, "Bitte gib eine Telefonnummer mit mindestens 7 Zeichen an.")
-    .regex(/^[0-9+\/\s-]+$/, "Bitte verwende nur Ziffern sowie +, -, / oder Leerzeichen."),
-  service: z.enum(SERVICE_IDS),
-  message: z
-    .string()
-    .min(10, "Beschreibe dein Projekt bitte etwas ausführlicher."),
-  terms: z.boolean().refine((value) => value === true, {
-    message: "Bitte bestätige die Datenschutzhinweise.",
-  }),
-})
+const createContactSchema = (t: TFunction) =>
+  z.object({
+    name: z
+      .string()
+      .min(2, t("contactForm.name.error")),
+    email: z.string().email(t("contactForm.email.error")),
+    phone: z
+      .string()
+      .min(7, t("contactForm.phone.error"))
+      .regex(/^[0-9+\/\s-]+$/, t("contactForm.phone.error")),
+    service: z.enum(SERVICE_IDS),
+    message: z
+      .string()
+      .min(10, t("contactForm.message.error")),
+    terms: z.boolean().refine((value) => value === true, {
+      message: t("contactForm.terms.error"),
+    }),
+  })
 
-export type ContactFormValues = z.infer<typeof contactSchema>
+export type ContactFormValues = z.infer<ReturnType<typeof createContactSchema>>
 
 type ContactFormProps = {
   onSubmitSuccess?: (values: ContactFormValues) => void
 }
 
 export function ContactForm({ onSubmitSuccess }: ContactFormProps) {
+  const { t } = useTranslation()
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const schema = useMemo(() => createContactSchema(t), [t])
+  const resolver = useMemo(() => zodResolver(schema), [schema])
 
   const form = useForm<ContactFormValues>({
-    resolver: zodResolver(contactSchema),
+    resolver,
     defaultValues: {
       name: "",
       email: "",
@@ -83,9 +89,9 @@ export function ContactForm({ onSubmitSuccess }: ContactFormProps) {
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Vor- und Nachname</FormLabel>
+              <FormLabel>{t("contactForm.name.label")}</FormLabel>
               <FormControl>
-                <Input placeholder="Max Mustermann" {...field} />
+                <Input placeholder={t("contactForm.name.placeholder") ?? undefined} {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -98,9 +104,13 @@ export function ContactForm({ onSubmitSuccess }: ContactFormProps) {
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>E-Mail-Adresse</FormLabel>
+                <FormLabel>{t("contactForm.email.label")}</FormLabel>
                 <FormControl>
-                  <Input type="email" placeholder="mail@handwerker.de" {...field} />
+                  <Input
+                    type="email"
+                    placeholder={t("contactForm.email.placeholder") ?? undefined}
+                    {...field}
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -111,9 +121,9 @@ export function ContactForm({ onSubmitSuccess }: ContactFormProps) {
             name="phone"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Telefonnummer</FormLabel>
+                <FormLabel>{t("contactForm.phone.label")}</FormLabel>
                 <FormControl>
-                  <Input placeholder="+49 151 1234567" {...field} />
+                  <Input placeholder={t("contactForm.phone.placeholder") ?? undefined} {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -126,7 +136,7 @@ export function ContactForm({ onSubmitSuccess }: ContactFormProps) {
           name="service"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Gewünschte Leistung</FormLabel>
+              <FormLabel>{t("contactForm.service.label")}</FormLabel>
               <FormControl>
                 <select
                   {...field}
@@ -134,13 +144,13 @@ export function ContactForm({ onSubmitSuccess }: ContactFormProps) {
                 >
                   {services.map((service) => (
                     <option key={service.id} value={service.id}>
-                      {service.title}
+                      {t(service.titleKey)}
                     </option>
                   ))}
                 </select>
               </FormControl>
               {selectedService ? (
-                <FormDescription>{selectedService.description}</FormDescription>
+                <FormDescription>{t(selectedService.descriptionKey)}</FormDescription>
               ) : null}
               <FormMessage />
             </FormItem>
@@ -152,10 +162,10 @@ export function ContactForm({ onSubmitSuccess }: ContactFormProps) {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Projektbeschreibung</FormLabel>
+              <FormLabel>{t("contactForm.message.label")}</FormLabel>
               <FormControl>
                 <Textarea
-                  placeholder="Welche Räume sollen renoviert werden? Wunschtermin, Besonderheiten..."
+                  placeholder={t("contactForm.message.placeholder") ?? undefined}
                   rows={5}
                   {...field}
                 />
@@ -179,7 +189,7 @@ export function ContactForm({ onSubmitSuccess }: ContactFormProps) {
                 </FormControl>
                 <div className="space-y-1 leading-tight">
                   <FormLabel className="font-normal text-sm">
-                    Ich stimme der Verarbeitung meiner Angaben zum Zweck der Kontaktaufnahme zu.
+                    {t("contactForm.terms.label")}
                   </FormLabel>
                 </div>
               </div>
@@ -189,12 +199,12 @@ export function ContactForm({ onSubmitSuccess }: ContactFormProps) {
         />
 
         <Button className="w-full" size="lg" type="submit">
-          Anfrage senden
+          {t("contactForm.submit")}
         </Button>
 
         {isSubmitted ? (
           <p className="text-center text-sm font-medium text-primary">
-            Danke für deine Anfrage! Wir melden uns innerhalb eines Werktags.
+            {t("contactForm.success")}
           </p>
         ) : null}
       </form>

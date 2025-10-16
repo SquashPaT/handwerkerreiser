@@ -1,0 +1,264 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "appointment": "Book an Appointment",
+    "contact": "Contact",
+    "imprint": "Legal Notice",
+    "cookies": "Cookies",
+    "privacy": "Privacy"
+  },
+  "theme": {
+    "toggle": "Toggle appearance",
+    "status": {
+      "on": "Dark mode enabled",
+      "off": "Dark mode disabled"
+    }
+  },
+  "footer": {
+    "contactTitle": "Handwerker Reiser",
+    "phone": "Phone",
+    "mobile": "Mobile",
+    "email": "E-mail",
+    "chamberNote": "Chamber of Crafts Munich · Member ID: 0123456",
+    "lawNote": "Professional regulations: German Trade and Crafts Code (HwO) · available at www.gesetze-im-internet.de",
+    "owner": "Owner: {{name}} · VAT ID: {{vatId}}",
+    "rights": "© {{year}} Handwerker Reiser. All rights reserved.",
+    "country": "Germany"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The requested page does not exist. Please check the URL or return to the homepage.",
+    "cta": "Back to homepage"
+  },
+  "home": {
+    "hero": {
+      "badge": "Handwerker Reiser · Master Craftsmen",
+      "title": "Renovation, clearance & flooring from a single source.",
+      "description": "We support property managers, owners and businesses with renovations, clearance projects and flooring installations. Personal, reliable and with an eye for detail.",
+      "ctaPrimary": "Request a free consultation",
+      "ctaSecondary": "View our services"
+    },
+    "highlights": {
+      "master": {
+        "title": "Master craftsmen",
+        "description": "Over 15 years of experience in residential and commercial fit-outs."
+      },
+      "speed": {
+        "title": "Fast execution",
+        "description": "Reliable scheduling and transparent communication from the first call to final handover."
+      },
+      "quality": {
+        "title": "Guaranteed quality",
+        "description": "We work exclusively with premium materials and qualified specialists."
+      }
+    },
+    "process": {
+      "badge": "Project launch within 48 hours",
+      "title": "Planning, execution & service – all from one source.",
+      "description": "Whether apartment, family home or office space: we create a tailored offer, coordinate all trades and keep you updated throughout the project. Our goal is a seamless process and results that impress.",
+      "bullets": {
+        "consulting": "Individual on-site consultation with transparent pricing and reliable timelines.",
+        "teams": "In-house teams for painting, flooring and clearance work – tailored to your project.",
+        "documentation": "Photo & video documentation plus personal handover with quality assurance."
+      },
+      "cardTitle": "Our key focus areas at a glance",
+      "cardDescription": "Renovation, clearance and flooring – we manage your project end to end.",
+      "cta": "Explore all services"
+    },
+    "metaTitle": "Handwerker Reiser – Renovation · Flooring · Assembly – handwerker-reiser-renovierung.de",
+    "heroCard": {
+      "title": "Project benefits",
+      "description": "Why clients put their trust in Handwerker Reiser."
+    }
+  },
+  "services": {
+    "badge": "Our services",
+    "title": "Three core areas – one contact partner",
+    "description": "We coordinate every trade so you can relax and enjoy the result. Count on transparent proposals and professional execution from planning to completion.",
+    "items": {
+      "renovation": {
+        "title": "Renovation works",
+        "description": "Painting, drywall and sanitary upgrades from one team – clean, on schedule and perfectly aligned."
+      },
+      "clearing": {
+        "title": "Clearance & disposal",
+        "description": "Basements, attics or entire households: we declutter and dispose of materials in line with regulations."
+      },
+      "flooring": {
+        "title": "Flooring installation",
+        "description": "Professional installation of parquet, vinyl and laminate including subfloor preparation."
+      }
+    },
+    "cta": "Request consultation",
+    "metaTitle": "Services – Handwerker Reiser",
+    "metaDescription": "We coordinate every trade so you can relax and enjoy the result. Count on transparent proposals and professional execution from planning to completion."
+  },
+  "appointment": {
+    "badge": "Book an appointment",
+    "title": "Three steps to the right project schedule.",
+    "description": "We adapt to your calendar – evenings or weekends on request. After the initial consultation you receive a detailed schedule with clear milestones.",
+    "bullets": {
+      "call": "Quick scheduling via phone or video call.",
+      "timeline": "Binding timeline with defined milestones and responsibilities.",
+      "documentation": "Transparent documentation via e-mail – traceable at any time."
+    },
+    "cardTitle": "Reserve an appointment now",
+    "cardDescription": "Choose your preferred channel – we will confirm promptly.",
+    "channels": {
+      "phoneTitle": "Schedule by phone",
+      "phoneDescription": "Reach us Monday to Friday between 8 am and 6 pm – we will find the right slot.",
+      "callbackTitle": "Request a call-back",
+      "callbackDescription": "Tell us your preferred date and time via the form – we will call you back reliably.",
+      "emailTitle": "Coordinate via e-mail",
+      "emailDescription": "Need to share plans or documents? Send them by e-mail – we will prepare everything.",
+      "callToAction": {
+        "call": "Call now",
+        "form": "Open contact form",
+        "email": "Write an e-mail"
+      }
+    },
+    "metaTitle": "Book an Appointment – Handwerker Reiser",
+    "metaDescription": "We adapt to your calendar – evenings or weekends on request. After the initial consultation you receive a detailed schedule with clear milestones."
+  },
+  "contact": {
+    "badge": "Project launch within 48 hours",
+    "title": "Planning, execution & service – all from one source.",
+    "description": "Apartments, single-family homes or office space: we design a tailored offer, coordinate all trades and keep you informed with regular updates. Our goal is a smooth process and an outstanding result.",
+    "bullets": {
+      "consulting": "On-site consultation with transparent pricing and a reliable schedule.",
+      "teams": "Dedicated teams for painting, flooring and clearance – perfectly matched to your project.",
+      "documentation": "Photo & video documentation plus personal handover with quality assurance."
+    },
+    "cardTitle": "Request your project",
+    "cardDescription": "Share your requirements – we will get back to you within one business day.",
+    "metaTitle": "Contact – Handwerker Reiser",
+    "metaDescription": "Apartments, single-family homes or office space: we design a tailored offer, coordinate all trades and keep you informed with regular updates. Our goal is a smooth process and an outstanding result."
+  },
+  "contactForm": {
+    "name": {
+      "label": "Full name",
+      "placeholder": "John Doe",
+      "error": "Please enter your full name."
+    },
+    "email": {
+      "label": "E-mail address",
+      "placeholder": "mail@handwerker.com",
+      "error": "Please enter a valid e-mail address."
+    },
+    "phone": {
+      "label": "Phone number",
+      "placeholder": "+49 151 1234567",
+      "error": "Please provide a phone number with at least 7 characters."
+    },
+    "service": {
+      "label": "Requested service",
+      "description": "The description updates automatically.",
+      "error": "Please choose the service you need."
+    },
+    "message": {
+      "label": "Project description",
+      "placeholder": "Which rooms are affected? Desired timeline, special requirements...",
+      "error": "Please describe your project in a little more detail."
+    },
+    "terms": {
+      "label": "I consent to the processing of my data for the purpose of being contacted.",
+      "error": "Please confirm the privacy notice."
+    },
+    "submit": "Send request",
+    "success": "Thank you for your enquiry! We will get back to you within one business day."
+  },
+  "imprint": {
+    "badge": "Legal notice",
+    "title": "Mandatory information",
+    "intro": "Information pursuant to § 5 German Telemedia Act (TMG). If you have questions, feel free to contact us at any time.",
+    "addressTitle": "Company details",
+    "contactTitle": "Contact",
+    "chamberNote": "Chamber of Crafts Munich · Member ID: 0123456",
+    "lawNote": "Professional regulations: German Trade and Crafts Code (HwO) · available at www.gesetze-im-internet.de",
+    "metaTitle": "Legal Notice – Handwerker Reiser",
+    "metaDescription": "Information pursuant to § 5 German Telemedia Act (TMG). If you have questions, feel free to contact us at any time."
+  },
+  "privacy": {
+    "badge": "Privacy",
+    "title": "How we handle your data",
+    "intro": "We treat your personal data confidentially and in accordance with statutory data protection rules. Below you find the most important information at a glance.",
+    "paragraphs": {
+      "controller": "The controller is {{company}}, {{owner}}, {{addressLine1}}, {{addressLine2}}, {{country}}. You can reach us at {{email}}.",
+      "purpose": "We process the data submitted via the form solely to handle your enquiry and arrange appointments. Legal basis is Art. 6 (1) lit. b GDPR.",
+      "sharing": "We only share data with third parties if necessary to fulfil the contract (e.g. subcontractors) or if there is a legal obligation. Data will be deleted once the purpose no longer applies.",
+      "rights": "You can request information, rectification, deletion, restriction of processing, data portability or object to processing at any time. You may also revoke any consent you have given.",
+      "more": "Please see our detailed privacy policy for further information. We are happy to answer any questions."
+    },
+    "metaTitle": "Privacy – Handwerker Reiser",
+    "metaDescription": "We treat your personal data confidentially and in accordance with statutory data protection rules. Below you find the most important information at a glance."
+  },
+  "cookies": {
+    "badge": "Cookies & tracking",
+    "title": "Cookie policy according to GDPR & TTDSG",
+    "intro": "We use cookies and similar technologies to keep our website functional, improve our services and – with your consent – measure reach and enable marketing. Here you will find information about the categories we use, storage periods and how to manage your choices.",
+    "sections": {
+      "controller": {
+        "title": "1. Controller",
+        "text": "Cookies are managed by Handwerker Reiser, Max Reiser, Musterstraße 12, 80331 Munich, Germany. Questions? Contact us via kontakt@handwerker-reiser.de."
+      },
+      "legal": {
+        "title": "2. Legal basis (Art. 6 (1) GDPR & § 25 TTDSG)",
+        "text": "Technically necessary cookies rely on Art. 6 (1) lit. f GDPR (legitimate interest) and § 25 (2) No. 2 TTDSG. All other cookies are only set if you expressly consent in line with Art. 6 (1) lit. a GDPR and § 25 (1) TTDSG."
+      },
+      "categories": {
+        "title": "3. Overview of cookie categories",
+        "items": {
+          "essential": "Essential cookies: ensure basic functionality of the website (e.g. language settings, log-in, consent banner).",
+          "functional": "Functional cookies: enable additional services such as embedded maps, chat or booking widgets. Without consent these remain inactive.",
+          "analytics": "Analytics/statistics cookies: help us understand how visitors use the site so we can improve content.",
+          "marketing": "Marketing/personalisation cookies: show relevant content and offers – also on partner sites."
+        }
+      },
+      "tools": {
+        "title": "4. Tools used & storage period",
+        "text": "A current list of providers (e.g. Google Analytics, Meta Pixel, scheduling widgets) is available in our consent tool. There you can also see storage periods and whether data is transferred to third countries. We regularly review providers for GDPR compliance and conclude the necessary data processing agreements."
+      },
+      "consent": {
+        "title": "5. Manage or withdraw consent",
+        "text": "You can change or withdraw your choice at any time via the cookie banner (“Adjust cookies”). You can also delete existing cookies in your browser settings. Please note that some functions may no longer be available after withdrawal.",
+        "steps": {
+          "one": "Scroll to the footer and click “Adjust cookies”.",
+          "two": "Select the desired categories (essential, functional, analytics, marketing).",
+          "three": "Confirm your choice with “Save”."
+        }
+      },
+      "browser": {
+        "title": "6. Browser settings",
+        "text": "Manage or disable cookies in these popular browsers:",
+        "links": {
+          "chrome": "Google Chrome",
+          "firefox": "Mozilla Firefox",
+          "safari": "Apple Safari",
+          "edge": "Microsoft Edge"
+        }
+      },
+      "thirdCountry": {
+        "title": "7. Third-country transfers",
+        "text": "Some providers process data outside the EU/EEA where data protection may differ. Transfers take place only with appropriate safeguards (e.g. EU Standard Contractual Clauses) or if you have given explicit consent."
+      },
+      "rights": {
+        "title": "8. Your rights",
+        "text": "You have the right to access, rectification, erasure, restriction of processing, data portability and to object. Withdrawn consents remain effective for the past processing."
+      },
+      "update": {
+        "title": "9. Updates to this policy",
+        "text": "We update this cookie policy whenever our tools, legal requirements or internal processes change. The most recent update date is shown below.",
+        "timestamp": "Last updated: {{date}}"
+      }
+    },
+    "browserLinks": {
+      "chrome": "https://support.google.com/chrome/answer/95647",
+      "firefox": "https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences",
+      "safari": "https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac",
+      "edge": "https://support.microsoft.com/en-us/topic/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    "metaTitle": "Cookies – Handwerker Reiser",
+    "metaDescription": "We use cookies and similar technologies to keep our website functional, improve our services and – with your consent – measure reach and enable marketing. Here you will find information about the categories we use, storage periods and how to manage your choices."
+  }
+}

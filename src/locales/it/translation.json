@@ -1,0 +1,264 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Servizi",
+    "appointment": "Prenota un appuntamento",
+    "contact": "Contatti",
+    "imprint": "Note legali",
+    "cookies": "Cookie",
+    "privacy": "Privacy"
+  },
+  "theme": {
+    "toggle": "Cambia aspetto",
+    "status": {
+      "on": "Modalità scura attiva",
+      "off": "Modalità scura disattivata"
+    }
+  },
+  "footer": {
+    "contactTitle": "Handwerker Reiser",
+    "phone": "Telefono",
+    "mobile": "Cellulare",
+    "email": "E-mail",
+    "chamberNote": "Camera dell'Artigianato di Monaco · N. socio: 0123456",
+    "lawNote": "Norme professionali: Legge tedesca dell'artigianato (HwO) · disponibile su www.gesetze-im-internet.de",
+    "owner": "Titolare: {{name}} · Partita IVA: {{vatId}}",
+    "rights": "© {{year}} Handwerker Reiser. Tutti i diritti riservati.",
+    "country": "Germania"
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "description": "La pagina richiesta non esiste. Controlla l'URL oppure torna alla homepage.",
+    "cta": "Torna alla homepage"
+  },
+  "home": {
+    "hero": {
+      "badge": "Handwerker Reiser · Maestri artigiani",
+      "title": "Ristrutturazioni, sgomberi e pavimenti da un unico fornitore.",
+      "description": "Supportiamo amministratori, proprietari e aziende in ristrutturazioni, sgomberi e posa di pavimenti. Personale, affidabile e curato nei dettagli.",
+      "ctaPrimary": "Richiedi una consulenza gratuita",
+      "ctaSecondary": "Scopri i servizi"
+    },
+    "highlights": {
+      "master": {
+        "title": "Maestri artigiani",
+        "description": "Oltre 15 anni di esperienza in progetti residenziali e commerciali."
+      },
+      "speed": {
+        "title": "Realizzazione rapida",
+        "description": "Pianificazione affidabile e comunicazione trasparente dal primo contatto alla consegna."
+      },
+      "quality": {
+        "title": "Qualità garantita",
+        "description": "Lavoriamo solo con materiali premium e personale qualificato."
+      }
+    },
+    "process": {
+      "badge": "Avvio progetto entro 48 ore",
+      "title": "Pianificazione, esecuzione e servizio – tutto da un'unica fonte.",
+      "description": "Appartamenti, case unifamiliari o uffici: prepariamo un'offerta su misura, coordiniamo tutte le maestranze e ti aggiorniamo regolarmente. Il nostro obiettivo è un processo fluido e un risultato eccellente.",
+      "bullets": {
+        "consulting": "Consulenza personalizzata in loco con costi trasparenti e tempi certi.",
+        "teams": "Team interni per pittura, pavimenti e sgomberi – perfettamente adeguati al progetto.",
+        "documentation": "Documentazione foto/video e consegna personale con controllo qualità."
+      },
+      "cardTitle": "I nostri focus principali",
+      "cardDescription": "Ristrutturazioni, sgomberi e pavimenti – gestiamo il progetto dall'inizio alla fine.",
+      "cta": "Vedi tutti i servizi"
+    },
+    "metaTitle": "Handwerker Reiser – Ristrutturazione · Pavimenti · Montaggio – handwerker-reiser-renovierung.de",
+    "heroCard": {
+      "title": "Vantaggi del progetto",
+      "description": "Perché i clienti si affidano a Handwerker Reiser."
+    }
+  },
+  "services": {
+    "badge": "I nostri servizi",
+    "title": "Tre aree principali – un unico referente",
+    "description": "Coordiniamo ogni lavorazione così puoi concentrarti sui risultati. Offerte trasparenti ed esecuzione professionale dalla pianificazione alla consegna.",
+    "items": {
+      "renovation": {
+        "title": "Lavori di ristrutturazione",
+        "description": "Tinteggi, cartongesso e sanitari da un unico team – pulito, puntuale e perfettamente coordinato."
+      },
+      "clearing": {
+        "title": "Sgombero e smaltimento",
+        "description": "Cantine, soffitte o intere abitazioni: sgomberiamo e smaltiamo nel rispetto delle normative."
+      },
+      "flooring": {
+        "title": "Posa pavimenti",
+        "description": "Posa professionale di parquet, vinile e laminato con preparazione del sottofondo."
+      }
+    },
+    "cta": "Richiedi consulenza",
+    "metaTitle": "Servizi – Handwerker Reiser",
+    "metaDescription": "Coordiniamo ogni lavorazione così puoi concentrarti sui risultati. Offerte trasparenti ed esecuzione professionale dalla pianificazione alla consegna."
+  },
+  "appointment": {
+    "badge": "Prenota un appuntamento",
+    "title": "Tre passi per pianificare il progetto.",
+    "description": "Adattiamo il calendario alle tue esigenze – anche la sera o nel weekend se necessario. Dopo il primo incontro ricevi un cronoprogramma dettagliato con tappe precise.",
+    "bullets": {
+      "call": "Pianificazione rapida via telefono o videochiamata.",
+      "timeline": "Cronoprogramma vincolante con tappe e responsabilità chiare.",
+      "documentation": "Documentazione trasparente via e-mail – sempre consultabile."
+    },
+    "cardTitle": "Prenota subito il tuo slot",
+    "cardDescription": "Scegli il canale preferito – ti confermiamo al più presto.",
+    "channels": {
+      "phoneTitle": "Prenotazione telefonica",
+      "phoneDescription": "Siamo disponibili dal lunedì al venerdì dalle 8 alle 18 – troviamo l'orario giusto.",
+      "callbackTitle": "Richiedi richiamata",
+      "callbackDescription": "Indica data e ora tramite form – ti richiamiamo puntualmente.",
+      "emailTitle": "Coordina via e-mail",
+      "emailDescription": "Devi inviare planimetrie o documenti? Mandaci tutto via mail e prepariamo il resto.",
+      "callToAction": {
+        "call": "Chiama ora",
+        "form": "Apri il form",
+        "email": "Scrivi un'e-mail"
+      }
+    },
+    "metaTitle": "Prenota un appuntamento – Handwerker Reiser",
+    "metaDescription": "Adattiamo il calendario alle tue esigenze – anche la sera o nel weekend se necessario. Dopo il primo incontro ricevi un cronoprogramma dettagliato con tappe precise."
+  },
+  "contact": {
+    "badge": "Avvio progetto entro 48 ore",
+    "title": "Pianificazione, esecuzione e servizio – tutto da un'unica fonte.",
+    "description": "Appartamenti, case o uffici: elaboriamo un'offerta personalizzata, coordiniamo tutte le squadre e ti aggiorniamo con report regolari. Puntiamo a un processo senza intoppi e a un risultato che stupisce.",
+    "bullets": {
+      "consulting": "Consulenza in loco con costi trasparenti e tempistiche affidabili.",
+      "teams": "Team dedicati per pittura, pavimenti e sgomberi – su misura per il tuo progetto.",
+      "documentation": "Documentazione foto/video e consegna personale con controllo qualità."
+    },
+    "cardTitle": "Richiedi il tuo progetto",
+    "cardDescription": "Scrivici le tue esigenze – ti ricontattiamo entro un giorno lavorativo.",
+    "metaTitle": "Contatti – Handwerker Reiser",
+    "metaDescription": "Appartamenti, case o uffici: elaboriamo un'offerta personalizzata, coordiniamo tutte le squadre e ti aggiorniamo con report regolari. Puntiamo a un processo senza intoppi e a un risultato che stupisce."
+  },
+  "contactForm": {
+    "name": {
+      "label": "Nome e cognome",
+      "placeholder": "Mario Rossi",
+      "error": "Inserisci il tuo nome completo."
+    },
+    "email": {
+      "label": "Indirizzo e-mail",
+      "placeholder": "mail@handwerker.com",
+      "error": "Inserisci un indirizzo e-mail valido."
+    },
+    "phone": {
+      "label": "Numero di telefono",
+      "placeholder": "+49 151 1234567",
+      "error": "Inserisci un numero di telefono di almeno 7 caratteri."
+    },
+    "service": {
+      "label": "Servizio richiesto",
+      "description": "La descrizione si aggiorna automaticamente.",
+      "error": "Seleziona il servizio di cui hai bisogno."
+    },
+    "message": {
+      "label": "Descrizione del progetto",
+      "placeholder": "Quali ambienti? Tempistiche desiderate, particolarità...",
+      "error": "Descrivi il progetto con qualche dettaglio in più."
+    },
+    "terms": {
+      "label": "Acconsento al trattamento dei miei dati per essere ricontattato.",
+      "error": "Conferma l'informativa sulla privacy."
+    },
+    "submit": "Invia richiesta",
+    "success": "Grazie per la tua richiesta! Ti contatteremo entro un giorno lavorativo."
+  },
+  "imprint": {
+    "badge": "Note legali",
+    "title": "Informazioni obbligatorie",
+    "intro": "Informazioni ai sensi del § 5 TMG tedesco. Per qualsiasi domanda siamo a disposizione via telefono o e-mail.",
+    "addressTitle": "Dati aziendali",
+    "contactTitle": "Contatti",
+    "chamberNote": "Camera dell'Artigianato di Monaco · N. socio: 0123456",
+    "lawNote": "Norme professionali: Legge tedesca dell'artigianato (HwO) · disponibile su www.gesetze-im-internet.de",
+    "metaTitle": "Note legali – Handwerker Reiser",
+    "metaDescription": "Informazioni ai sensi del § 5 TMG tedesco. Per qualsiasi domanda siamo a disposizione via telefono o e-mail."
+  },
+  "privacy": {
+    "badge": "Privacy",
+    "title": "Come trattiamo i tuoi dati",
+    "intro": "I tuoi dati personali vengono trattati in modo confidenziale e in conformità alle norme vigenti. Di seguito trovi le informazioni principali.",
+    "paragraphs": {
+      "controller": "Il titolare del trattamento è {{company}}, {{owner}}, {{addressLine1}}, {{addressLine2}}, {{country}}. Puoi contattarci a {{email}}.",
+      "purpose": "Utilizziamo i dati inviati tramite il form esclusivamente per gestire la tua richiesta e fissare appuntamenti. Base giuridica: art. 6 par. 1 lett. b GDPR.",
+      "sharing": "I dati vengono condivisi con terzi solo se necessario per adempiere al contratto (ad es. subappaltatori) o se richiesto dalla legge. I dati vengono eliminati quando il motivo del trattamento viene meno.",
+      "rights": "Hai diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità dei dati e opposizione. Puoi revocare in qualsiasi momento il consenso prestato.",
+      "more": "Consulta la nostra informativa completa sulla privacy per ulteriori informazioni. Siamo lieti di rispondere a ogni domanda."
+    },
+    "metaTitle": "Privacy – Handwerker Reiser",
+    "metaDescription": "I tuoi dati personali vengono trattati in modo confidenziale e in conformità alle norme vigenti. Di seguito trovi le informazioni principali."
+  },
+  "cookies": {
+    "badge": "Cookie & tracciamento",
+    "title": "Informativa cookie conforme a GDPR & TTDSG",
+    "intro": "Utilizziamo cookie e tecnologie simili per garantire il funzionamento del sito, migliorare i servizi e – previo consenso – misurare le visite e gestire il marketing. Qui trovi le categorie utilizzate, i tempi di conservazione e come gestire le tue preferenze.",
+    "sections": {
+      "controller": {
+        "title": "1. Titolare del trattamento",
+        "text": "I cookie sono gestiti da Handwerker Reiser, Max Reiser, Musterstraße 12, 80331 Monaco di Baviera, Germania. Per domande contattaci all'indirizzo kontakt@handwerker-reiser.de."
+      },
+      "legal": {
+        "title": "2. Base giuridica (art. 6 (1) GDPR & § 25 TTDSG)",
+        "text": "I cookie tecnicamente necessari si basano sull'art. 6 (1) lett. f GDPR (legittimo interesse) e sul § 25 (2) n.2 TTDSG. Gli altri cookie vengono impostati solo con il tuo consenso esplicito ai sensi dell'art. 6 (1) lett. a GDPR e § 25 (1) TTDSG."
+      },
+      "categories": {
+        "title": "3. Panoramica delle categorie di cookie",
+        "items": {
+          "essential": "Cookie essenziali: garantiscono le funzioni di base del sito (es. lingua, accesso, banner cookie).",
+          "functional": "Cookie funzionali: abilitano servizi aggiuntivi come mappe integrate, chat o widget di prenotazione. Senza consenso restano disattivati.",
+          "analytics": "Cookie di analisi/statistica: ci aiutano a capire come vengono utilizzate le pagine per migliorarne i contenuti.",
+          "marketing": "Cookie di marketing/personalizzazione: mostrano contenuti e offerte pertinenti, anche su siti partner."
+        }
+      },
+      "tools": {
+        "title": "4. Strumenti utilizzati & tempi di conservazione",
+        "text": "L'elenco aggiornato dei fornitori (es. Google Analytics, Meta Pixel, widget di prenotazione) è disponibile nel nostro strumento di consenso. Lì sono indicati anche i tempi di conservazione e le eventuali trasferte verso Paesi terzi. Verifichiamo regolarmente la conformità GDPR e stipuliamo i contratti necessari."
+      },
+      "consent": {
+        "title": "5. Gestire o revocare il consenso",
+        "text": "Puoi modificare o revocare le tue scelte in qualsiasi momento tramite il banner cookie (“Personalizza cookie”). Inoltre puoi cancellare i cookie esistenti dalle impostazioni del browser. Dopo la revoca alcune funzioni potrebbero non essere più disponibili.",
+        "steps": {
+          "one": "Vai a piè di pagina e clicca su “Personalizza cookie”.",
+          "two": "Seleziona le categorie desiderate (essenziali, funzionali, statistiche, marketing).",
+          "three": "Conferma con “Salva”."
+        }
+      },
+      "browser": {
+        "title": "6. Impostazioni del browser",
+        "text": "Gestisci o disattiva i cookie nei seguenti browser:",
+        "links": {
+          "chrome": "Google Chrome",
+          "firefox": "Mozilla Firefox",
+          "safari": "Apple Safari",
+          "edge": "Microsoft Edge"
+        }
+      },
+      "thirdCountry": {
+        "title": "7. Trasferimenti verso Paesi terzi",
+        "text": "Alcuni fornitori trattano i dati al di fuori dell'UE/SEE, dove il livello di protezione può differire. Il trasferimento avviene solo con garanzie adeguate (es. clausole contrattuali standard UE) o con il tuo consenso esplicito."
+      },
+      "rights": {
+        "title": "8. I tuoi diritti",
+        "text": "Hai diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità e opposizione. La revoca del consenso non pregiudica la liceità del trattamento basata sul consenso prima della revoca."
+      },
+      "update": {
+        "title": "9. Aggiornamenti dell'informativa",
+        "text": "Aggiorniamo questa informativa sui cookie quando cambiano strumenti, requisiti legali o processi interni. La data dell'ultimo aggiornamento è riportata di seguito.",
+        "timestamp": "Ultimo aggiornamento: {{date}}"
+      }
+    },
+    "browserLinks": {
+      "chrome": "https://support.google.com/chrome/answer/95647?hl=it",
+      "firefox": "https://support.mozilla.org/it/kb/Attivare%20disattivare%20i%20cookie",
+      "safari": "https://support.apple.com/it-it/guide/safari/sfri11471/mac",
+      "edge": "https://support.microsoft.com/it-it/topic/eliminare-e-gestire-i-cookie-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    "metaTitle": "Cookie – Handwerker Reiser",
+    "metaDescription": "Utilizziamo cookie e tecnologie simili per garantire il funzionamento del sito, migliorare i servizi e – previo consenso – misurare le visite e gestire il marketing. Qui trovi le categorie utilizzate, i tempi di conservazione e come gestire le tue preferenze."
+  }
+}
