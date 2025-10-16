@@ -5,7 +5,7 @@ import { Check, Globe, Menu, Moon, Sun } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { useTheme } from "@/components/theme/theme-provider"
-import menuLogo from "@/assets/reiser-menu-logo.svg"
+import menuLogo from "@/assets/logo_no_background.png"
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
