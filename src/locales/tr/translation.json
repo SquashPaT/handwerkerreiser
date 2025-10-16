@@ -260,5 +260,37 @@
     },
     "metaTitle": "Çerezler – Handwerker Reiser",
     "metaDescription": "Web sitemizin işlevselliğini sağlamak, hizmetlerimizi geliştirmek ve onayın varsa erişim analizi ile pazarlama yapmak için çerezler ve benzeri teknolojiler kullanıyoruz. Burada kullanılan kategoriler, saklama süreleri ve tercihlerini nasıl yönetebileceğin hakkında bilgi bulacaksın."
+  },
+  "consent": {
+    "banner": {
+      "title": "Çerezler ve teknolojiler",
+      "description": "Web sitemizi çalıştırmak, geliştirmek ve pazarlamak için çerezler kullanıyoruz. Hangi kategorilere izin vereceğin sana bağlı.",
+      "accept": "Tümünü kabul et",
+      "reject": "Sadece gerekli çerezler",
+      "settings": "Tercihler"
+    },
+    "dialog": {
+      "title": "Çerez ayarları",
+      "save": "Seçimi kaydet",
+      "policies": "Daha fazla bilgiyi gizlilik politikamızda bulabilirsin.",
+      "categories": {
+        "essential": {
+          "title": "Zorunlu",
+          "description": "Web sitesinin çalışması için gereklidir ve devre dışı bırakılamaz."
+        },
+        "functional": {
+          "title": "Fonksiyonel",
+          "description": "Gömülü hizmetler veya haritalar gibi ek özellikleri etkinleştirir."
+        },
+        "analytics": {
+          "title": "İstatistik",
+          "description": "Site kullanımını analiz ederek içerikleri geliştirmemize yardımcı olur."
+        },
+        "marketing": {
+          "title": "Pazarlama",
+          "description": "İlgili içerik ve teklifleri göstermek için kullanılır."
+        }
+      }
+    }
   }
 }

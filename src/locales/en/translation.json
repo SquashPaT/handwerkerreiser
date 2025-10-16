@@ -260,5 +260,37 @@
     },
     "metaTitle": "Cookies – Handwerker Reiser",
     "metaDescription": "We use cookies and similar technologies to keep our website functional, improve our services and – with your consent – measure reach and enable marketing. Here you will find information about the categories we use, storage periods and how to manage your choices."
+  },
+  "consent": {
+    "banner": {
+      "title": "Cookies & technologies",
+      "description": "We use cookies to operate, improve and market our site. You decide which categories we may use.",
+      "accept": "Accept all",
+      "reject": "Essential only",
+      "settings": "Preferences"
+    },
+    "dialog": {
+      "title": "Cookie settings",
+      "save": "Save selection",
+      "policies": "Find more details in our privacy policy.",
+      "categories": {
+        "essential": {
+          "title": "Essential",
+          "description": "Required for the site to function and cannot be disabled."
+        },
+        "functional": {
+          "title": "Functional",
+          "description": "Enables additional services such as embedded tools or maps."
+        },
+        "analytics": {
+          "title": "Analytics",
+          "description": "Helps us understand usage patterns so we can improve our content."
+        },
+        "marketing": {
+          "title": "Marketing",
+          "description": "Used to deliver relevant content and offers."
+        }
+      }
+    }
   }
 }

@@ -260,5 +260,37 @@
     },
     "metaTitle": "Cookies – Handwerker Reiser",
     "metaDescription": "Wir nutzen Cookies und ähnliche Technologien, um unsere Website funktionsfähig zu halten, Services zu verbessern und – sofern du einwilligst – Reichweitenmessung sowie Marketing zu ermöglichen. Auf dieser Seite findest du alle Informationen zu den eingesetzten Kategorien, der Speicherdauer und deinen Widerspruchsmöglichkeiten."
+  },
+  "consent": {
+    "banner": {
+      "title": "Cookies & Technologien",
+      "description": "Wir verwenden Cookies, um unsere Website zu betreiben, zu verbessern und für Marketing auszuwerten. Du kannst selbst entscheiden, welche Kategorien wir setzen dürfen.",
+      "accept": "Alle akzeptieren",
+      "reject": "Nur essentielle akzeptieren",
+      "settings": "Einstellungen"
+    },
+    "dialog": {
+      "title": "Cookie-Einstellungen",
+      "save": "Auswahl speichern",
+      "policies": "Weitere Informationen findest du in unserer Datenschutzerklärung.",
+      "categories": {
+        "essential": {
+          "title": "Essentiell",
+          "description": "Erforderlich für den Betrieb der Website und kann nicht deaktiviert werden."
+        },
+        "functional": {
+          "title": "Funktional",
+          "description": "Erlaubt zusätzliche Funktionen wie eingebettete Dienste oder Karten."
+        },
+        "analytics": {
+          "title": "Statistik",
+          "description": "Hilft uns zu verstehen, wie die Website genutzt wird, um sie zu verbessern."
+        },
+        "marketing": {
+          "title": "Marketing",
+          "description": "Dient dazu, dir relevante Inhalte und Angebote anzuzeigen."
+        }
+      }
+    }
   }
 }
