@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Reiser Handwerk Logo</title>
+  <rect width="200" height="200" rx="24" fill="#4b2a1a" />
+  <path
+    d="M52 92 100 54l48 38h-18l-30-24-30 24z"
+    fill="#f7e9cd"
+  />
+  <path
+    d="M92 98h16v18H92z"
+    fill="#f7e9cd"
+  />
+  <path
+    d="M88 97h24v28H88z"
+    fill="#4b2a1a"
+  />
+  <path
+    d="M92 126h16v-17H92zm6-23h4v6h-4z"
+    fill="#f7e9cd"
+  />
+  <g fill="#f7e9cd">
+    <text x="100" y="150" font-size="44" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" letter-spacing="8">
+      R E I S E R
+    </text>
+    <text x="100" y="178" font-size="26" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" letter-spacing="6">
+      HANDWERK
+    </text>
+  </g>
+</svg>

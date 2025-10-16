@@ -5,6 +5,7 @@ import { Check, Globe, Menu, Moon, Sun } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { useTheme } from "@/components/theme/theme-provider"
+import menuLogo from "@/assets/reiser-menu-logo.svg"
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
@@ -58,12 +59,12 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 md:px-10 lg:px-12">
-        <Link
-          to="/"
-          className="text-lg font-semibold tracking-tight text-foreground"
-          onClick={handleItemClick}
-        >
-          {t("footer.contactTitle")}
+        <Link to="/" className="flex items-center" onClick={handleItemClick}>
+          <img
+            src={menuLogo}
+            alt={t("branding.menuLogoAlt")}
+            className="h-10 w-auto md:h-12"
+          />
         </Link>
         <div className="hidden items-center gap-1 md:flex">
           {navItems.map((item) => (

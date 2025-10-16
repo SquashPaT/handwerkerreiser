@@ -15,6 +15,9 @@
       "off": "Dark Mode deaktiviert"
     }
   },
+  "branding": {
+    "menuLogoAlt": "Handwerker Reiser Logo"
+  },
   "language": {
     "switcher": "Sprache auswählen"
   },
@@ -39,6 +42,7 @@
       "badge": "Handwerker Reiser · Meisterbetrieb",
       "title": "Renovierung, Entrümpelung & Böden aus einer Hand.",
       "description": "Wir unterstützen Hausverwaltungen, Eigentümer:innen und Unternehmen bei Renovierungen, Entrümpelungen und Bodenarbeiten. Persönlich, zuverlässig und mit Liebe zum Detail.",
+      "logoAlt": "Logo von Handwerker Reiser mit Werkzeugen und Haus",
       "ctaPrimary": "Kostenlose Beratung sichern",
       "ctaSecondary": "Unsere Leistungen"
     },

@@ -1,23 +1,24 @@
-import { useTranslation } from "react-i18next"
-import { Helmet } from "react-helmet-async"
-import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
-import { highlights, services } from "@/lib/content"
+} from "@/components/ui/card";
+import { highlights, services } from "@/lib/content";
+import heroLogo from "@/assets/logo.png";
 
 export function HomePage() {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
-  const metaTitle = t("home.metaTitle")
-  const pageDescription = t("home.hero.description")
+  const metaTitle = t("home.metaTitle");
+  const pageDescription = t("home.hero.description");
 
   return (
     <>
@@ -34,9 +35,13 @@ export function HomePage() {
           <div className="mx-auto flex w-full max-w-6xl flex-col gap-16 px-6 pb-20 pt-16 md:px-10 lg:px-12">
             <div className="flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
               <div className="space-y-6 md:max-w-2xl">
-                <Badge variant="secondary" className="bg-secondary/60 text-secondary-foreground">
+                <Badge
+                  variant="secondary"
+                  className="bg-secondary/60 text-secondary-foreground"
+                >
                   {t("home.hero.badge")}
                 </Badge>
+
                 <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
                   {t("home.hero.title")}
                 </h1>
@@ -52,20 +57,37 @@ export function HomePage() {
                   </Button>
                 </div>
               </div>
+
               <Card className="border-primary/20 bg-primary/5 shadow-lg shadow-primary/10 backdrop-blur">
+                <div className="mx-auto w-full max-w-xs overflow-hidden rounded-2xl border border-border/40 bg-muted/5 p-6 shadow-lg shadow-primary/10 md:mx-0 md:max-w-sm">
+                  <img
+                    src={heroLogo}
+                    alt={t("home.hero.logoAlt")}
+                    className="h-auto w-full"
+                  />
+                </div>
                 <CardHeader>
                   <CardTitle>{t("home.heroCard.title")}</CardTitle>
-                  <CardDescription>{t("home.heroCard.description")}</CardDescription>
+                  <CardDescription>
+                    {t("home.heroCard.description")}
+                  </CardDescription>
                 </CardHeader>
                 <CardContent className="grid gap-4">
                   {highlights.map((highlight) => (
-                    <div key={highlight.titleKey} className="flex gap-4 rounded-lg bg-background/80 p-4">
+                    <div
+                      key={highlight.titleKey}
+                      className="flex gap-4 rounded-lg bg-background/80 p-4"
+                    >
                       <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
                         <highlight.icon className="h-5 w-5" />
                       </div>
                       <div>
-                        <p className="font-semibold text-foreground">{t(highlight.titleKey)}</p>
-                        <p className="text-sm text-muted-foreground">{t(highlight.descriptionKey)}</p>
+                        <p className="font-semibold text-foreground">
+                          {t(highlight.titleKey)}
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          {t(highlight.descriptionKey)}
+                        </p>
                       </div>
                     </div>
                   ))}
@@ -84,7 +106,9 @@ export function HomePage() {
               <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                 {t("home.process.title")}
               </h2>
-              <p className="text-muted-foreground">{t("home.process.description")}</p>
+              <p className="text-muted-foreground">
+                {t("home.process.description")}
+              </p>
               <ul className="grid gap-4 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <div className="mt-1 h-2.5 w-2.5 rounded-full bg-primary" />
@@ -103,17 +127,26 @@ export function HomePage() {
             <Card className="border-primary/20 shadow-lg shadow-primary/10">
               <CardHeader>
                 <CardTitle>{t("home.process.cardTitle")}</CardTitle>
-                <CardDescription>{t("home.process.cardDescription")}</CardDescription>
+                <CardDescription>
+                  {t("home.process.cardDescription")}
+                </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 {services.map((service) => (
-                  <div key={service.id} className="flex gap-4 rounded-lg border border-border/60 bg-background/80 p-4">
+                  <div
+                    key={service.id}
+                    className="flex gap-4 rounded-lg border border-border/60 bg-background/80 p-4"
+                  >
                     <div className="mt-1 flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
                       <service.icon className="h-5 w-5" />
                     </div>
                     <div>
-                      <p className="font-medium text-foreground">{t(service.titleKey)}</p>
-                      <p className="text-sm text-muted-foreground">{t(service.descriptionKey)}</p>
+                      <p className="font-medium text-foreground">
+                        {t(service.titleKey)}
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        {t(service.descriptionKey)}
+                      </p>
                     </div>
                   </div>
                 ))}
@@ -126,5 +159,5 @@ export function HomePage() {
         </section>
       </div>
     </>
-  )
+  );
 }

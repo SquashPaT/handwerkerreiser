@@ -15,6 +15,9 @@
       "off": "Modalità scura disattivata"
     }
   },
+  "branding": {
+    "menuLogoAlt": "Logo Handwerker Reiser"
+  },
   "language": {
     "switcher": "Seleziona la lingua"
   },
@@ -39,6 +42,7 @@
       "badge": "Handwerker Reiser · Maestri artigiani",
       "title": "Ristrutturazioni, sgomberi e pavimenti da un unico fornitore.",
       "description": "Supportiamo amministratori, proprietari e aziende in ristrutturazioni, sgomberi e posa di pavimenti. Personale, affidabile e curato nei dettagli.",
+      "logoAlt": "Logo Handwerker Reiser con casa e utensili",
       "ctaPrimary": "Richiedi una consulenza gratuita",
       "ctaSecondary": "Scopri i servizi"
     },

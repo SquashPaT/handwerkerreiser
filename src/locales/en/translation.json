@@ -15,6 +15,9 @@
       "off": "Dark mode disabled"
     }
   },
+  "branding": {
+    "menuLogoAlt": "Handwerker Reiser logo"
+  },
   "language": {
     "switcher": "Change language"
   },
@@ -39,6 +42,7 @@
       "badge": "Handwerker Reiser · Master Craftsmen",
       "title": "Renovation, clearance & flooring from a single source.",
       "description": "We support property managers, owners and businesses with renovations, clearance projects and flooring installations. Personal, reliable and with an eye for detail.",
+      "logoAlt": "Handwerker Reiser logo showing a house and tools",
       "ctaPrimary": "Request a free consultation",
       "ctaSecondary": "View our services"
     },
