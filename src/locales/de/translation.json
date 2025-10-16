@@ -35,7 +35,9 @@
   "notFound": {
     "title": "Seite nicht gefunden",
     "description": "Die angeforderte Seite existiert nicht. Bitte überprüfe die URL oder kehre zur Startseite zurück.",
-    "cta": "Zur Startseite"
+    "cta": "Zur Startseite",
+    "support": "Wenn du Hilfe brauchst, melde dich gerne direkt bei uns. Wir kümmern uns schnellstmöglich darum.",
+    "contactCta": "Kontakt aufnehmen"
   },
   "home": {
     "hero": {

@@ -35,7 +35,9 @@
   "notFound": {
     "title": "Sayfa bulunamadı",
     "description": "Aradığınız sayfa mevcut değil. Lütfen URL'yi kontrol edin veya ana sayfaya dönün.",
-    "cta": "Ana sayfaya dön"
+    "cta": "Ana sayfaya dön",
+    "support": "Yardıma ihtiyacın olursa bizimle hemen iletişime geç; en kısa sürede sana geri döneriz.",
+    "contactCta": "Bize ulaş"
   },
   "home": {
     "hero": {

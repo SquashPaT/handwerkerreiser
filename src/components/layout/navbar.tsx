@@ -1,18 +1,18 @@
-import { useState } from "react"
-import { useTranslation } from "react-i18next"
-import { Link, NavLink } from "react-router-dom"
-import { Check, Globe, Menu, Moon, Sun } from "lucide-react"
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { Link, NavLink } from "react-router-dom";
+import { Check, Globe, Menu, Moon, Sun } from "lucide-react";
 
-import { cn } from "@/lib/utils"
-import { useTheme } from "@/components/theme/theme-provider"
-import menuLogo from "@/assets/logo_no_background.png"
-import { Button } from "@/components/ui/button"
+import { cn } from "@/lib/utils";
+import { useTheme } from "@/components/theme/theme-provider";
+import menuLogo from "@/assets/logo_no_background.png";
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
 
 const navItems = [
   { labelKey: "nav.home", to: "/" },
@@ -22,48 +22,47 @@ const navItems = [
   { labelKey: "nav.imprint", to: "/impressum" },
   { labelKey: "nav.cookies", to: "/cookies" },
   { labelKey: "nav.privacy", to: "/datenschutz" },
-]
+];
 
 export function Navbar() {
-  const [open, setOpen] = useState(false)
-  const { theme, toggleTheme } = useTheme()
-  const { t, i18n } = useTranslation()
-  const mobileNavId = "mobile-navigation"
+  const [open, setOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
+  const { t, i18n } = useTranslation();
+  const mobileNavId = "mobile-navigation";
 
   const supportedLanguages = [
     { code: "de", label: "DE" },
     { code: "en", label: "EN" },
     { code: "tr", label: "TR" },
     { code: "it", label: "IT" },
-  ]
+  ];
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
     cn(
       "px-3 py-2 text-sm font-medium transition-colors",
-      isActive
-        ? "text-primary"
-        : "text-muted-foreground hover:text-foreground",
-    )
+      isActive ? "text-primary" : "text-muted-foreground hover:text-foreground"
+    );
 
-  const activeLanguage = supportedLanguages.find(
-    ({ code }) => i18n.resolvedLanguage === code,
-  ) ?? supportedLanguages[0]
+  const activeLanguage =
+    supportedLanguages.find(({ code }) => i18n.resolvedLanguage === code) ??
+    supportedLanguages[0];
 
-  const handleItemClick = () => setOpen(false)
+  const handleItemClick = () => setOpen(false);
 
   const handleLanguageSelect = (code: string) => {
-    void i18n.changeLanguage(code)
-    handleItemClick()
-  }
+    void i18n.changeLanguage(code);
+    handleItemClick();
+  };
 
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 md:px-10 lg:px-12">
         <Link to="/" className="flex items-center" onClick={handleItemClick}>
           <img
+            style={{ scale: 2, padding: "0.1rem" }}
             src={menuLogo}
             alt={t("branding.menuLogoAlt")}
-            className="h-10 w-auto md:h-12"
+            className="h-12 w-auto md:h-16"
           />
         </Link>
         <div className="hidden items-center gap-1 md:flex">
@@ -84,20 +83,21 @@ export function Navbar() {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-36">
               {supportedLanguages.map(({ code, label }) => {
-                const isActive = i18n.resolvedLanguage === code
+                const isActive = i18n.resolvedLanguage === code;
                 return (
                   <DropdownMenuItem
                     key={code}
                     onSelect={() => handleLanguageSelect(code)}
                     className={cn(
                       "flex items-center justify-between gap-2",
-                      isActive && "bg-primary/10 text-primary focus:bg-primary/10",
+                      isActive &&
+                        "bg-primary/10 text-primary focus:bg-primary/10"
                     )}
                   >
                     <span>{label}</span>
                     {isActive ? <Check className="h-4 w-4" /> : null}
                   </DropdownMenuItem>
-                )
+                );
               })}
             </DropdownMenuContent>
           </DropdownMenu>
@@ -108,10 +108,16 @@ export function Navbar() {
             onClick={toggleTheme}
           >
             <Sun
-              className={cn("h-5 w-5 transition", theme === "dark" ? "hidden" : "block")}
+              className={cn(
+                "h-5 w-5 transition",
+                theme === "dark" ? "hidden" : "block"
+              )}
             />
             <Moon
-              className={cn("h-5 w-5 transition", theme === "dark" ? "block" : "hidden")}
+              className={cn(
+                "h-5 w-5 transition",
+                theme === "dark" ? "block" : "hidden"
+              )}
             />
           </Button>
         </div>
@@ -123,10 +129,16 @@ export function Navbar() {
             onClick={toggleTheme}
           >
             <Sun
-              className={cn("h-5 w-5 transition", theme === "dark" ? "hidden" : "block")}
+              className={cn(
+                "h-5 w-5 transition",
+                theme === "dark" ? "hidden" : "block"
+              )}
             />
             <Moon
-              className={cn("h-5 w-5 transition", theme === "dark" ? "block" : "hidden")}
+              className={cn(
+                "h-5 w-5 transition",
+                theme === "dark" ? "block" : "hidden"
+              )}
             />
           </Button>
           <Button
@@ -145,7 +157,7 @@ export function Navbar() {
         id={mobileNavId}
         className={cn(
           "border-t border-border px-6 py-4 md:hidden",
-          open ? "flex flex-col gap-2" : "hidden",
+          open ? "flex flex-col gap-2" : "hidden"
         )}
       >
         {navItems.map((item) => (
@@ -162,8 +174,8 @@ export function Navbar() {
           variant="outline"
           className="mt-2 justify-start gap-2"
           onClick={() => {
-            toggleTheme()
-            handleItemClick()
+            toggleTheme();
+            handleItemClick();
           }}
         >
           <Sun
@@ -178,29 +190,31 @@ export function Navbar() {
           <DropdownMenuTrigger asChild>
             <Button variant="outline" className="justify-start gap-2">
               <Globe className="h-4 w-4" />
-              <span className="text-sm font-medium">{activeLanguage.label}</span>
+              <span className="text-sm font-medium">
+                {activeLanguage.label}
+              </span>
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="start" className="w-40">
             {supportedLanguages.map(({ code, label }) => {
-              const isActive = i18n.resolvedLanguage === code
+              const isActive = i18n.resolvedLanguage === code;
               return (
                 <DropdownMenuItem
                   key={code}
                   onSelect={() => handleLanguageSelect(code)}
                   className={cn(
                     "flex items-center justify-between",
-                    isActive && "bg-primary/10 text-primary focus:bg-primary/10",
+                    isActive && "bg-primary/10 text-primary focus:bg-primary/10"
                   )}
                 >
                   <span>{label}</span>
                   {isActive ? <Check className="h-4 w-4" /> : null}
                 </DropdownMenuItem>
-              )
+              );
             })}
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
     </nav>
-  )
+  );
 }

@@ -35,7 +35,9 @@
   "notFound": {
     "title": "Page not found",
     "description": "The requested page does not exist. Please check the URL or return to the homepage.",
-    "cta": "Back to homepage"
+    "cta": "Back to homepage",
+    "support": "If you need assistance, feel free to reach out. We'll get you back on track right away.",
+    "contactCta": "Contact us"
   },
   "home": {
     "hero": {
